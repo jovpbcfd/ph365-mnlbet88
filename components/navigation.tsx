@@ -8,12 +8,12 @@ export default function Navigation({ className = "" }: NavigationProps) {
   return (
     <ul className={`${className}`}>
       <li className="pb-3 border-b border-white/20 md:border-none md:pb-0">
-        <Link href="#" className="block w-full h-full">
+        <Link href="/" className="block w-full h-full">
           HOME
         </Link>
       </li>
       <li className="pb-3 border-b border-white/20 md:border-none md:pb-0">
-        <Link href="#">CASINO</Link>
+        <Link href="/casino">CASINO</Link>
       </li>
       <li className="pb-3 border-b border-white/20 md:border-none md:pb-0">
         <Link href="#" className="block w-full h-full">
