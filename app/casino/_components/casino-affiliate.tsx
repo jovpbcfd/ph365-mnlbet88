@@ -6,9 +6,9 @@ export default function AffiliatePrograms() {
           Earn money while you play with affiliate programs
         </h2>
         <p className="mt-2">
-          Another interesting option is ph365 Casino's partner program, which
-          lets players make money by telling their friends about the site and
-          encouraging them to join. Affiliate marketing lets players get new
+          Another interesting option is ph365 Casino&apos;s partner program,
+          which lets players make money by telling their friends about the site
+          and encouraging them to join. Affiliate marketing lets players get new
           people to visit casinos by posting their own reference links on social
           media, websites, blogs, and other places.
         </p>

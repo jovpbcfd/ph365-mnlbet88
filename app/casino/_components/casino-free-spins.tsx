@@ -17,7 +17,7 @@ export default function FreeSpins() {
           first time. This way, they can play well-known video games like Book
           of Dead and Starburst without having to first put money into an
           account. They can learn how to play, try out different strategies, and
-          maybe even win something during these free spins. They don't cost
+          maybe even win something during these free spins. They don&apos;t cost
           anything.
         </p>
         <p className="mt-2">

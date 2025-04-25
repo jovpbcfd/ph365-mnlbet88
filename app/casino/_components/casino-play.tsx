@@ -6,9 +6,9 @@ export default function Play() {
           There is no deposit bonus; play before you pay.
         </h2>
         <p className="mt-2">
-          People can try out ph365 Casino's no-deposit bonus without having to
-          make a deposit first. This is one of the best deals. You can use this
-          bonus to try out the casino and play games for real money without
+          People can try out ph365 Casino&apos;s no-deposit bonus without having
+          to make a deposit first. This is one of the best deals. You can use
+          this bonus to try out the casino and play games for real money without
           having to first make a deposit.
         </p>
         <p className="mt-2">
@@ -20,10 +20,10 @@ export default function Play() {
           online casinos without any risk.
         </p>
         <p className="mt-2">
-          As a new player, you can try all of ph365 Casino's games for free with
-          the no-deposit bonus. Check out the site and see if it meets your
-          needs with this offer. It's great if you're new to online gaming or
-          just want to play some games.
+          As a new player, you can try all of ph365 Casino&apos;s games for free
+          with the no-deposit bonus. Check out the site and see if it meets your
+          needs with this offer. It&apos;s great if you&apos;re new to online
+          gaming or just want to play some games.
         </p>
       </div>
     </section>

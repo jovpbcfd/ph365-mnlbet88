@@ -22,10 +22,10 @@ export default function Significance() {
         <p className="mt-2">
           There are several games with fair RTP available for players of ph365
           Casino. Players looking to maximize their wagers highly value popular
-          slot games such as Starburst, Gonzo's Quest, and Book of Dead, RTPs
-          ranging from 94% to 98%. There are also table games with extra chances
-          for bigger rewards including Roulette (97% RTP) and Blackjack (99%
-          RTP).
+          slot games such as Starburst, Gonzo&apos;s Quest, and Book of Dead,
+          RTPs ranging from 94% to 98%. There are also table games with extra
+          chances for bigger rewards including Roulette (97% RTP) and Blackjack
+          (99% RTP).
         </p>
         <p className="mt-2">
           Knowing RTP would help Filipino gamers to create a smart gaming

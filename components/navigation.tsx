@@ -16,12 +16,12 @@ export default function Navigation({ className = "" }: NavigationProps) {
         <Link href="/casino">CASINO</Link>
       </li>
       <li className="pb-3 border-b border-white/20 md:border-none md:pb-0">
-        <Link href="#" className="block w-full h-full">
+        <Link href="/fish-hunter" className="block w-full h-full">
           FISH HUNTER
         </Link>
       </li>
       <li className="pb-3 border-b border-white/20 md:border-none md:pb-0">
-        <Link href="#" className="block w-full h-full">
+        <Link href="/lottery" className="block w-full h-full">
           LOTTERY
         </Link>
       </li>

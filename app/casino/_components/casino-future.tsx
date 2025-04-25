@@ -31,15 +31,15 @@ export default function Future() {
           ph365 gaming is likely to improve its live dealer offerings with even
           more advanced technology. You can expect current streaming quality,
           multiple camera angles, and creative changes to the games that will
-          make you feel like you're in a real casino from home.
+          make you feel like you&apos;re in a real casino from home.
         </p>
         <p className="mt-2">
           Additionally, as mobile gaming grows, players will have more freedom
           to play games anywhere, at any time. Mobile apps will keep changing so
           that they work perfectly on a wide range of devices. Filipino gamers
           can look forward to even easier and more convenient ways to play their
-          favorite games while they're on the go, as ph365 Casino works to make
-          its site better for mobile use.
+          favorite games while they&apos;re on the go, as ph365 Casino works to
+          make its site better for mobile use.
         </p>
         <p className="mt-2">
           As online gambling becomes more popular in the Philippines, ph365

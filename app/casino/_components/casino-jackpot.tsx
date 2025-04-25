@@ -38,24 +38,25 @@ export default function JackpotGames() {
           Progressive jackpots often have small, minor, major, and huge jackpots
           as well as other prize levels. Each of these steps guarantees a
           different amount of rewards, giving players the chance to win big
-          prizes even though they don't lead to the jackpot. Small and mini
+          prizes even though they don&apos;t lead to the jackpot. Small and mini
           jackpots can still give away huge amounts of money that can change a
-          player's life, even though they're not as big as the big win.
+          player&apos;s life, even though they&apos;re not as big as the big
+          win.
         </p>
         <p className="mt-2">
           Every kind of player can enjoy a progressive jackpot because it has
           more than one level. A player can still make a lot of money from one
-          of the smaller levels even if they don't win the big prize. The method
-          that runs progressive jackpot games makes sure that every player has a
-          chance to win something, whether it's a small amount that means a lot
-          to them or a huge amount that changes their life.
+          of the smaller levels even if they don&apos;t win the big prize. The
+          method that runs progressive jackpot games makes sure that every
+          player has a chance to win something, whether it&apos;s a small amount
+          that means a lot to them or a huge amount that changes their life.
         </p>
         <p className="mt-2">
-          Every spin at the ph365 Casino's progressive prize games is meant to
-          keep players on the edge of their seats by giving them the chance to
-          win big while also being dangerous. The prize pools are always going
-          up, which creates a lot of energy and anticipation. This makes the
-          game world dynamic and fun for everyone who plays.
+          Every spin at the ph365 Casino&apos;s progressive prize games is meant
+          to keep players on the edge of their seats by giving them the chance
+          to win big while also being dangerous. The prize pools are always
+          going up, which creates a lot of energy and anticipation. This makes
+          the game world dynamic and fun for everyone who plays.
         </p>
       </div>
     </section>

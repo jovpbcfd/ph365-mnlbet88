@@ -8,22 +8,22 @@ export default function PlayerExperience() {
         <p className="mt-2">
           ph365 Casino guarantees players a fun and exciting betting experience
           with cutting-edge technologies and a layout that puts the user first.
-          It's very important for the quality of the site to keep players happy
-          as online casinos become more popular and easy to find. Their main
-          goal is to make a great place where both new and old people can enjoy
-          themselves.
+          It&apos;s very important for the quality of the site to keep players
+          happy as online casinos become more popular and easy to find. Their
+          main goal is to make a great place where both new and old people can
+          enjoy themselves.
         </p>
         <p className="mt-2">
           ph365 Casino can be used on both your computer and your phone. Your
           phone and computer can both be used with ph365 Casino. Using the app
           comes naturally. People will find their preferred games, check out
-          what's new, and grab offers easily on the site as it looks beautiful.
-          Perfect game play and loading times keep players interesting and
-          reduce frustration, so the basic design also makes the most of these
-          factors. Whether you're on a computer, tablet, or phone, the
-          responsive and well-organized design makes it simple to move between
-          groups like promotions, slots, table games, live dealers, and live
-          dealers.
+          what&apos;s new, and grab offers easily on the site as it looks
+          beautiful. Perfect game play and loading times keep players
+          interesting and reduce frustration, so the basic design also makes the
+          most of these factors. Whether you&apos;re on a computer, tablet, or
+          phone, the responsive and well-organized design makes it simple to
+          move between groups like promotions, slots, table games, live dealers,
+          and live dealers.
         </p>
         <p className="mt-2">
           Because it has so many live dealer games, ph365 Casino comes out as a
@@ -38,11 +38,11 @@ export default function PlayerExperience() {
           Among several live dealer games available at ph365 are Live Blackjack,
           Live Roulette, Live Baccarat. Playing these games will let you feel as
           though you are at a genuine casino. The games are run by real people,
-          and live video feeds let players really enjoy them. It's more fun and
-          feels like you're really at a real gaming table when you can talk to
-          dealers and other players through live chat. Now that technology has
-          gotten better, live games look and feel very real. They have
-          professional croppers, a lot of camera angles, and high-quality
+          and live video feeds let players really enjoy them. It&apos;s more fun
+          and feels like you&apos;re really at a real gaming table when you can
+          talk to dealers and other players through live chat. Now that
+          technology has gotten better, live games look and feel very real. They
+          have professional croppers, a lot of camera angles, and high-quality
           streaming.
         </p>
 
@@ -52,17 +52,18 @@ export default function PlayerExperience() {
           Mobile apps are available for both Android and iOS devices that let
           players take their games with them. It is designed so that players can
           enjoy the same high-quality experience on their phones as they can on
-          their computers, so they never miss a game while they're away.
+          their computers, so they never miss a game while they&apos;re away.
         </p>
 
         <p className="mt-2">
-          The mobile apps' quick controls and easy-to-read game screens make for
-          a perfect gaming experience. The ph365 team makes sure that the
-          interface works perfectly on your device, so you can enjoy a perfect
-          and fully immersive experience whether you're playing on a phone or a
-          computer. The mobile app has all the same features and levels of
-          access and ease as the desktop site, so players can do everything from
-          making payments and withdrawals to playing live dealer games.
+          The mobile apps&apos; quick controls and easy-to-read game screens
+          make for a perfect gaming experience. The ph365 team makes sure that
+          the interface works perfectly on your device, so you can enjoy a
+          perfect and fully immersive experience whether you&apos;re playing on
+          a phone or a computer. The mobile app has all the same features and
+          levels of access and ease as the desktop site, so players can do
+          everything from making payments and withdrawals to playing live dealer
+          games.
         </p>
 
         <p className="mt-2">
