@@ -16,9 +16,9 @@ export default function Varieties() {
         <p className="mt-2">
           Sometimes their speed or secretiveness makes particular fish more
           difficult to find. Maximizing your income depends on knowing these
-          fish's behavior and modifying your approach. Certain games also have
-          rare species or bonus fish that set off unique abilities, hence
-          enhancing the gameplay's thrills.
+          fish&apos;s behavior and modifying your approach. Certain games also
+          have rare species or bonus fish that set off unique abilities, hence
+          enhancing the gameplay&apos;s thrills.
         </p>
       </div>
     </section>

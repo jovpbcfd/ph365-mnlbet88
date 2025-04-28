@@ -7,11 +7,12 @@ export default function HowItWorks() {
         </h2>
         <p className="mt-2">
           The Lottery is not that difficult really. Players choose a set of
-          numbers or a predetermined "catch" they believe will win, then wait
-          for the draw to find out if their estimate is correct. Still, the game
-          provides significantly more than first looks at. Lottery games are
-          intriguing to those seeking an immersive gaming experience since they
-          are full of excitement, expectation, and many possibilities to win.
+          numbers or a predetermined &quot;catch&quot; they believe will win,
+          then wait for the draw to find out if their estimate is correct.
+          Still, the game provides significantly more than first looks at.
+          Lottery games are intriguing to those seeking an immersive gaming
+          experience since they are full of excitement, expectation, and many
+          possibilities to win.
         </p>
         <p className="mt-2">
           The Lottery is defined by the gaming mechanisms. Depending on the

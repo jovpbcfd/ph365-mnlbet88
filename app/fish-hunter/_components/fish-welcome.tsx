@@ -12,10 +12,10 @@ export default function Welcome() {
           count. Many have made this fascinating genre a favorite since it
           combines fun, skill, and strategy in an original way. At Ph365, we are
           rather proud of spearheading this trend and providing gamers with a
-          first-rate venue to fully enter the Fish Hunter world. Whether you're
-          new to the game or experienced, Ph365 offers an unmatched experience
-          where you may start an amazing fishing expedition and win large
-          prizes!
+          first-rate venue to fully enter the Fish Hunter world. Whether
+          you&apos;re new to the game or experienced, Ph365 offers an unmatched
+          experience where you may start an amazing fishing expedition and win
+          large prizes!
         </p>
       </div>
     </section>

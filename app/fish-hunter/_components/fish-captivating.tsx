@@ -19,9 +19,9 @@ export default function Captivating() {
           and degree of difficulty. Your tactics may vary depending on the game
           circumstances and the quantity and size of the fish you are hunting as
           you play. Aim the line properly and timing your shot will help you to
-          get the fish before they escape. Fish Hunter's game is continually
-          evolving, hence enthusiasts of the game keep returning for additional
-          chances to win large prizes.
+          get the fish before they escape. Fish Hunter&apos;s game is
+          continually evolving, hence enthusiasts of the game keep returning for
+          additional chances to win large prizes.
         </p>
         <p className="mt-2">
           The game is much more thrilling because of its numerous features and
@@ -31,11 +31,11 @@ export default function Captivating() {
           that keeps you fascinated.
         </p>
         <p className="mt-2">
-          It's not enough to just throw out a line and hope for the best for
-          fish hunters. There are new tasks with each level, and the game gets
-          more fun with each successful catch. What keeps people playing these
-          games is the excitement, the strategy, and the huge chance to win big
-          prizes.
+          It&apos;s not enough to just throw out a line and hope for the best
+          for fish hunters. There are new tasks with each level, and the game
+          gets more fun with each successful catch. What keeps people playing
+          these games is the excitement, the strategy, and the huge chance to
+          win big prizes.
         </p>
       </div>
     </section>

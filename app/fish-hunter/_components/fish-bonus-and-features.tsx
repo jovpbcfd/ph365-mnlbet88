@@ -58,7 +58,7 @@ export default function BonusAndFeatures() {
               <div>
                 <p>
                   <strong>Jackpots: </strong> A lot of Fish Hunter games offer
-                  jackpot chances. You can win a big prize if you're lucky
+                  jackpot chances. You can win a big prize if you&apos;re lucky
                   enough to catch a certain fish or make a certain mixture.
                   These prize chances make the game more exciting and
                   unpredictable, which encourages players to keep trying to

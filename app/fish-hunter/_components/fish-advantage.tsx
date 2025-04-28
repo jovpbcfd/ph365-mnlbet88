@@ -19,15 +19,16 @@ export default function Advantage() {
           </p>
           <p>
             <strong>Wide Range of Fish Hunter: </strong> Our large range of Fish
-            Hunter means you'll always be able to find something new and fun. On
-            ph365, you can choose from a range of choices, whether you like
-            low-stakes games or casual fishing.
+            Hunter means you&apos;ll always be able to find something new and
+            fun. On ph365, you can choose from a range of choices, whether you
+            like low-stakes games or casual fishing.
           </p>
           <p>
             <strong>Mobile Compatibility: </strong> ph365 works with all mobile
-            devices, so you can play Fish Hunter while you're out and about. The
-            high-quality graphics and smooth gameplay will be the same whether
-            you're on a smartphone or tablet. There will be no speed loss.
+            devices, so you can play Fish Hunter while you&apos;re out and
+            about. The high-quality graphics and smooth gameplay will be the
+            same whether you&apos;re on a smartphone or tablet. There will be no
+            speed loss.
           </p>
           <p>
             <strong>Exciting Bonuses and Deals: </strong>

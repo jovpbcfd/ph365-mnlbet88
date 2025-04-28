@@ -26,12 +26,12 @@ export default function Navigation({ className = "" }: NavigationProps) {
         </Link>
       </li>
       <li className="pb-3 border-b border-white/20 md:border-none md:pb-0">
-        <Link href="#" className="block w-full h-full">
+        <Link href="/promotions" className="block w-full h-full">
           PROMOTIONS
         </Link>
       </li>
       <li className="pb-3 border-b border-white/20 md:border-none md:pb-0">
-        <Link href="#" className="block w-full h-full">
+        <Link href="/download" className="block w-full h-full">
           DOWNLOAD
         </Link>
       </li>

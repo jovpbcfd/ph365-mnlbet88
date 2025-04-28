@@ -11,12 +11,12 @@ export default function Welcome() {
           for millions of people all around. Whether you are fishing from the
           shore or on a boat tossing your line, the thrill of the catch is
           unquestionable. But in recent years, this beloved hobby has changed
-          because the concept of "lottery" has emerged in the domain of online
-          betting. Combining the excitement of fishing with the attractiveness
-          of lottery-style prizes, this new sort of entertainment has attracted
-          players all around. Adopting this trend, ph365 has produced an
-          exciting and artistic Lottery experience whereby players may win very
-          large sums.
+          because the concept of &quot;lottery&quot; has emerged in the domain
+          of online betting. Combining the excitement of fishing with the
+          attractiveness of lottery-style prizes, this new sort of entertainment
+          has attracted players all around. Adopting this trend, ph365 has
+          produced an exciting and artistic Lottery experience whereby players
+          may win very large sums.
         </p>
         <p className="mt-2">
           Lottery has gone global providing a unique blend of relaxation,
