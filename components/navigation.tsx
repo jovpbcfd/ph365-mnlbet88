@@ -36,17 +36,17 @@ export default function Navigation({ className = "" }: NavigationProps) {
         </Link>
       </li>
       <li className="pb-3 border-b border-white/20 md:border-none md:pb-0">
-        <Link href="#" className="block w-full h-full">
+        <Link href="/sports-book" className="block w-full h-full">
           SPORTBOOK
         </Link>
       </li>
       <li className="pb-3 border-b border-white/20 md:border-none md:pb-0">
-        <Link href="#" className="block w-full h-full">
+        <Link href="/live-casino" className="block w-full h-full">
           LIVE CASINO
         </Link>
       </li>
       <li className="pb-3 border-b border-white/20 md:border-none md:pb-0">
-        <Link href="#" className="block w-full h-full">
+        <Link href="/card-game" className="block w-full h-full">
           CARD GAME
         </Link>
       </li>

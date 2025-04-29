@@ -12,7 +12,7 @@ export default function Banner({ data }: { data: BannerData[] }) {
     <div className="pt-10 flex flex-col items-center justify-center gap-y-5 md:flex-row md:gap-x-10">
       {data.map((item, index) => (
         <div key={index} className="flex flex-col items-center">
-          <div className="flex items-center justify-center border border-dashed rounded-md w-[600px] h-[200px]">
+          <div className="flex items-center justify-center border border-dashed rounded-md w-full lg:w-[600px] lg:h-[200px]">
             Image
           </div>
           <div className="mt-3">

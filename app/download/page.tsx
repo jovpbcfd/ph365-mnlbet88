@@ -6,6 +6,7 @@ import CommonIssues from "./_components/download-common-issues";
 import Guide from "./_components/download-guide";
 import ReasonsForDownloading from "./_components/download-reason";
 import SafeGaming from "./_components/download-gaming";
+import Welcome from "./_components/download-welcome";
 
 export default function Page() {
   return (
@@ -15,6 +16,7 @@ export default function Page() {
           <Banner data={downloadBanner} />
         </div>
       </section>
+      <Welcome />
       <SafeGaming />
       <ReasonsForDownloading />
       <Guide />

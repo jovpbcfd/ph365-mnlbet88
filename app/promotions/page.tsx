@@ -10,6 +10,7 @@ import HowItOperates from "./_components/promotion-operate";
 import Daily from "./_components/promotion-daily";
 import Excitement from "./_components/promotion-excitement";
 import Recognition from "./_components/promotion-recognition";
+import Welcome from "./_components/promotion-welcome";
 
 export default function Page() {
   return (
@@ -19,6 +20,7 @@ export default function Page() {
           <Banner data={promotionBanner} />
         </div>
       </section>
+      <Welcome />
       <Recognition />
       <Excitement />
       <Daily />
