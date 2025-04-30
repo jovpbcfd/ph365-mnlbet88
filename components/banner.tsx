@@ -9,25 +9,32 @@ type BannerData = {
 
 export default function Banner({ data }: { data: BannerData[] }) {
   return (
-    <div className="pt-10 flex flex-col items-center justify-center gap-y-5 md:flex-row md:gap-x-10">
-      {data.map((item, index) => (
-        <div key={index} className="flex flex-col items-center">
-          <div className="flex items-center justify-center border border-dashed rounded-md w-full lg:w-[600px] lg:h-[200px]">
-            Image
+    <section className="py-10 px-4">
+      <div className="max-w-[1200px] mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-2">
+        {data.map((item, index) => (
+          <div
+            key={index}
+            className="bg-blue-950 rounded-2xl p-6 border border-white/10 shadow-xl flex flex-col justify-between h-full"
+          >
+            <div className="w-full h-[200px] flex items-center justify-center rounded-xl border border-dashed border-white/20 text-white text-sm">
+              Image 600x200
+            </div>
+
+            <p className="text-white font-semibold mt-4 text-base md:text-lg">
+              {item.description}
+            </p>
+
+            <div className="mt-5">
+              <Link
+                href={item.link}
+                className="inline-block bg-[#FCD000] hover:bg-[#FCD000]/90 text-[#212335] text-sm font-semibold px-6 py-2 rounded-full transition"
+              >
+                {item.cta}
+              </Link>
+            </div>
           </div>
-          <div className="mt-3">
-            <p className="font-bold md:text-xl">{item.description}</p>
-          </div>
-          <div className="w-full mt-4 flex items-center justify-center">
-            <Link
-              href={item.link}
-              className="bg-[#FCD000] font-[700] px-6 py-2 text-[#212335] rounded-md min-w-[100px]"
-            >
-              {item.cta}
-            </Link>
-          </div>
-        </div>
-      ))}
-    </div>
+        ))}
+      </div>
+    </section>
   );
 }

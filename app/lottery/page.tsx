@@ -6,7 +6,7 @@ import Comparison from "./_components/lottery-comparison";
 import HowItWorks from "./_components/lottery-works";
 import GamingMarket from "./_components/lottery-market";
 import LotteryPleasure from "./_components/lottery-pleasure";
-import Welcome from "../_components/home-welcome";
+import Welcome from "./_components/lottery-welcome";
 
 export default function Page() {
   return (

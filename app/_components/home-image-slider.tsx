@@ -31,7 +31,7 @@ export default function Slider() {
       <CarouselContent className="w-full h-[150px] md:[h-250px] lg:w-[1245px] lg:h-[300px]">
         {images.map((image, index) => (
           <CarouselItem key={index}>
-            <div className="aspect-square h-full w-full flex items-center justify-center border border-dashed border-gray-400 rounded-md text-white">
+            <div className="aspect-square h-full w-full flex items-center justify-center border border-dashed border-white/20 rounded-md text-white">
               {image.link}
             </div>
           </CarouselItem>

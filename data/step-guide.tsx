@@ -11,7 +11,7 @@ export const data = [
           " Register" button. Starting the registration process, click this
           button.
         </p>
-        <div className="aspect-square w-full h-[300px] mx-auto flex items-center justify-center border border-dashed rounded-md">
+        <div className="aspect-square w-full h-[300px] mx-auto flex items-center justify-center border border-dashed border-white/20 rounded-md">
           Image 1400x600
         </div>
       </>
@@ -29,7 +29,7 @@ export const data = [
           registration process. Once you have finished the required fields,
           confirm your data to be sure it is accurate.
         </p>
-        <div className="aspect-square w-full h-[300px] mx-auto flex items-center justify-center border border-dashed rounded-md">
+        <div className="aspect-square w-full h-[300px] mx-auto flex items-center justify-center border border-dashed border-white/20 rounded-md">
           Image 1400x600
         </div>
       </>
@@ -48,7 +48,7 @@ export const data = [
           of games. Every player should start their road with us at ph365
           feeling appreciated and guided.
         </p>
-        <div className="aspect-square w-full h-[300px] mx-auto flex items-center justify-center border border-dashed rounded-md">
+        <div className="aspect-square w-full h-[300px] mx-auto flex items-center justify-center border border-dashed border-white/20 rounded-md">
           Image 1400x600
         </div>
       </>
@@ -66,7 +66,7 @@ export const data = [
           play—big gains or just enjoyment—ph365 offers the perfect environment
           for all types of players.
         </p>
-        <div className="aspect-square w-full h-[300px] mx-auto flex items-center justify-center border border-dashed rounded-md">
+        <div className="aspect-square w-full h-[300px] mx-auto flex items-center justify-center border border-dashed border-white/20 rounded-md">
           Image 1400x600
         </div>
       </>

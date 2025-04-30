@@ -11,7 +11,7 @@ export const data = [
           username, and email address. You can start fishing as soon as your
           account is set up.
         </p>
-        <div className="aspect-square w-full h-[300px] mx-auto flex items-center justify-center border border-dashed rounded-md">
+        <div className="aspect-square w-full h-[300px] mx-auto flex items-center justify-center border border-dashed border-white/20 rounded-md">
           Image 1400x600
         </div>
       </>
@@ -28,7 +28,7 @@ export const data = [
           Pick the way that works best for you, add money to your account, and
           you're ready to fish.
         </p>
-        <div className="aspect-square w-full h-[300px] mx-auto flex items-center justify-center border border-dashed rounded-md">
+        <div className="aspect-square w-full h-[300px] mx-auto flex items-center justify-center border border-dashed border-white/20 rounded-md">
           Image 1400x600
         </div>
       </>
@@ -45,7 +45,7 @@ export const data = [
           gameplay. At ph365, there's something for everyone, whether you want
           high-stakes action or a calmer, more relaxing fishing trip.
         </p>
-        <div className="aspect-square w-full h-[300px] mx-auto flex items-center justify-center border border-dashed rounded-md">
+        <div className="aspect-square w-full h-[300px] mx-auto flex items-center justify-center border border-dashed border-white/20 rounded-md">
           Image 1400x600
         </div>
       </>
@@ -63,7 +63,7 @@ export const data = [
           also a help area in our games, so you can quickly learn how to play
           and win.
         </p>
-        <div className="aspect-square w-full h-[300px] mx-auto flex items-center justify-center border border-dashed rounded-md">
+        <div className="aspect-square w-full h-[300px] mx-auto flex items-center justify-center border border-dashed border-white/20 rounded-md">
           Image 1400x600
         </div>
       </>
@@ -80,7 +80,7 @@ export const data = [
           gains will also grow with each catch. The better your shots, the more
           likely it is that you will catch a rare and expensive fish.
         </p>
-        <div className="aspect-square w-full h-[300px] mx-auto flex items-center justify-center border border-dashed rounded-md">
+        <div className="aspect-square w-full h-[300px] mx-auto flex items-center justify-center border border-dashed border-white/20 rounded-md">
           Image 1400x600
         </div>
       </>

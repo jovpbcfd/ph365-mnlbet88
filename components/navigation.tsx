@@ -7,49 +7,23 @@ type NavigationProps = {
 export default function Navigation({ className = "" }: NavigationProps) {
   return (
     <ul className={`${className}`}>
-      <li className="pb-3 border-b border-white/20 md:border-none md:pb-0">
-        <Link href="/" className="block w-full h-full">
-          HOME
-        </Link>
-      </li>
-      <li className="pb-3 border-b border-white/20 md:border-none md:pb-0">
-        <Link href="/casino">CASINO</Link>
-      </li>
-      <li className="pb-3 border-b border-white/20 md:border-none md:pb-0">
-        <Link href="/fish-hunter" className="block w-full h-full">
-          FISH HUNTER
-        </Link>
-      </li>
-      <li className="pb-3 border-b border-white/20 md:border-none md:pb-0">
-        <Link href="/lottery" className="block w-full h-full">
-          LOTTERY
-        </Link>
-      </li>
-      <li className="pb-3 border-b border-white/20 md:border-none md:pb-0">
-        <Link href="/promotions" className="block w-full h-full">
-          PROMOTIONS
-        </Link>
-      </li>
-      <li className="pb-3 border-b border-white/20 md:border-none md:pb-0">
-        <Link href="/download" className="block w-full h-full">
-          DOWNLOAD
-        </Link>
-      </li>
-      <li className="pb-3 border-b border-white/20 md:border-none md:pb-0">
-        <Link href="/sports-book" className="block w-full h-full">
-          SPORTBOOK
-        </Link>
-      </li>
-      <li className="pb-3 border-b border-white/20 md:border-none md:pb-0">
-        <Link href="/live-casino" className="block w-full h-full">
-          LIVE CASINO
-        </Link>
-      </li>
-      <li className="pb-3 border-b border-white/20 md:border-none md:pb-0">
-        <Link href="/card-game" className="block w-full h-full">
-          CARD GAME
-        </Link>
-      </li>
+      {[
+        { name: "HOME", href: "/" },
+        { name: "CASINO", href: "/casino" },
+        { name: "FISH HUNTER", href: "/fish-hunter" },
+        { name: "LOTTERY", href: "/lottery" },
+        { name: "PROMOTIONS", href: "/promotions" },
+        { name: "DOWNLOAD", href: "/download" },
+        { name: "SPORTBOOK", href: "/sports-book" },
+        { name: "LIVE CASINO", href: "/live-casino" },
+        { name: "CARD GAME", href: "/card-game" },
+      ].map((item, idx) => (
+        <li key={idx} className="hover:text-cyan-400 transition-colors">
+          <Link href={item.href} className="block w-full h-full">
+            {item.name}
+          </Link>
+        </li>
+      ))}
     </ul>
   );
 }

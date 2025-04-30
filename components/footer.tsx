@@ -1,46 +1,50 @@
 import Link from "next/link";
 
 const menuItems = [
-  { name: "HOME", href: "#" },
-  { name: "CASINO", href: "#" },
-  { name: "FISH HUNTER", href: "#" },
-  { name: "LOTTERY", href: "#" },
-  { name: "PROMOTIONS", href: "#" },
-  { name: "DOWNLOAD", href: "#" },
-  { name: "SPORTS BOOK", href: "#" },
-  { name: "LIVE CASINO", href: "#" },
-  { name: "CARD GAME", href: "#" },
+  { name: "HOME", href: "/" },
+  { name: "CASINO", href: "/casino" },
+  { name: "FISH HUNTER", href: "/fish-hunter" },
+  { name: "LOTTERY", href: "/lottery" },
+  { name: "PROMOTIONS", href: "/promotion" },
+  { name: "DOWNLOAD", href: "/download" },
+  { name: "SPORTS BOOK", href: "/sports-book" },
+  { name: "LIVE CASINO", href: "/live-casino" },
+  { name: "CARD GAME", href: "/card-game" },
 ];
 
 export default function Footer() {
   return (
-    <footer className="bg-blue-950">
-      <div className="max-w-[1200px] mx-auto grid grid-cols-2 lg:py-10">
-        <div>
-          <Link href="#" className="text-white">
+    <footer className="bg-gradient-to-r from-blue-900 to-blue-700 text-white">
+      <div className="max-w-6xl mx-auto px-4 py-12 grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="space-y-3">
+          <Link
+            href="/"
+            className="text-2xl font-bold tracking-wide bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent"
+          >
             PH365
           </Link>
+          <p className="text-gray-300 text-sm max-w-md">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+            maxime assumenda quidem error molestiae a.
+          </p>
         </div>
-        <div>
-          <ul className="flex flex-col items-left text-sm font-medium">
-            {menuItems.map((item, index) => (
-              <li key={index}>
-                <Link
-                  href={item.href}
-                  className="flex items-center space-x-2 border-b border-white/20 pb-1 hover:text-blue-300 transition-colors  text-white duration-200"
-                >
-                  <span className="text-lg">»</span>
-                  <span>{item.name}</span>
-                </Link>
-              </li>
-            ))}
-          </ul>
+
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-y-4 text-sm">
+          {menuItems.map((item, index) => (
+            <Link
+              key={index}
+              href={item.href}
+              className="flex items-center space-x-2 hover:text-cyan-400 transition-colors duration-200"
+            >
+              <span className="text-base">»</span>
+              <span>{item.name}</span>
+            </Link>
+          ))}
         </div>
       </div>
-      <div className="py-8 bg-blue-900">
-        <div className="max-w-[1200px] mx-auto text-center text-white">
-          <p>Copyright ph365</p>
-        </div>
+
+      <div className="border-t border-white/10 py-6 text-center text-gray-300 text-sm">
+        © {new Date().getFullYear()} PH365. All rights reserved.
       </div>
     </footer>
   );
