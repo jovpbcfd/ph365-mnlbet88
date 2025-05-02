@@ -1,10 +1,19 @@
+"use client";
+
+import { motion } from "framer-motion";
+
 export default function Play() {
   return (
     <section>
       <div className="max-w-[1200px] mx-auto  text-white">
-        <h2 className="text-[30px] font-bold text-center my-2 lg:my-3">
+        <motion.h2
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="text-center text-[30px] lg:text-4xl font-bold bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent mb-2 lg:mb-10"
+        >
           There is no deposit bonus; play before you pay.
-        </h2>
+        </motion.h2>
         <p className="mt-2">
           People can try out ph365 Casino&apos;s no-deposit bonus without having
           to make a deposit first. This is one of the best deals. You can use

@@ -1,5 +1,6 @@
 "use client";
 
+// import Image from "next/image";
 import { motion } from "framer-motion";
 import { blocks } from "@/data/casino-jackpot-games-block";
 
@@ -36,8 +37,8 @@ export default function JackpotGames() {
                 </div>
               </div>
 
-              <div className="lg:w-1/2 w-full h-[200px]  rounded-xl border border-dashed border-white/20 flex items-center justify-center text-sm text-white/60">
-                Image 600x200
+              <div className="w-full h-full lg:w-1/2 lg:h-[200px]  rounded-xl border border-dashed border-white/20 flex items-center justify-center text-sm text-white/60">
+                Image 6000x2000
               </div>
             </motion.div>
           ))}
