@@ -1,10 +1,19 @@
+"use client";
+
+import { motion } from "framer-motion";
+
 export default function HowItWorks() {
   return (
-    <section>
+    <section className="py-6 px-4">
       <div className="max-w-[1200px] mx-auto  text-white">
-        <h2 className="text-[30px] font-bold text-center my-2 lg:my-3">
+        <motion.h2
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="text-center text-[30px] lg:text-4xl font-bold bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent mb-2 lg:mb-10"
+        >
           How the Lottery Works
-        </h2>
+        </motion.h2>
         <p className="mt-2">
           The Lottery is not that difficult really. Players choose a set of
           numbers or a predetermined &quot;catch&quot; they believe will win,

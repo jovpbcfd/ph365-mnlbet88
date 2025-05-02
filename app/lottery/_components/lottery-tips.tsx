@@ -1,12 +1,20 @@
+"use client";
+
+import { motion } from "framer-motion";
 import Dot from "@/components/dot";
 
 export default function Tips() {
   return (
     <section>
       <div className="max-w-[1200px] mx-auto  text-white">
-        <h2 className="text-[30px] font-bold text-center my-2 lg:my-3">
+        <motion.h2
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="text-center text-[30px] lg:text-4xl font-bold bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent mb-2 lg:mb-10"
+        >
           Tips for Increasing Your Prospect of Success
-        </h2>
+        </motion.h2>
         <p className="mt-2">
           Lottery is primarily a question of chance, however, you could use
           several strategies to increase your chances of success:

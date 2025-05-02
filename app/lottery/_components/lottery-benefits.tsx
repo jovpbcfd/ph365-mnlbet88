@@ -1,76 +1,48 @@
+"use client";
+
+import { motion } from "framer-motion";
+import { steps } from "@/data/lottery-benefits";
+
 export default function Benefits() {
   return (
-    <section>
+    <section className="py-6 px-4">
       <div className="max-w-[1200px] mx-auto  text-white">
-        <h2 className="text-[30px] font-bold text-center my-2 lg:my-3">
+        <motion.h2
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="text-center text-[30px] lg:text-4xl font-bold bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent mb-2 lg:mb-10"
+        >
           Benefits of Lottery Playing at ph365
-        </h2>
-        <p className="mt-2">
+        </motion.h2>
+        <p className="mt-2 lg:mb-10">
           ph365 has been the chosen platform for online lottery enthusiasts for
           many different reasons. Our commitment to deliver a secure and
           enjoyable gaming environment has helped us to build a user-friendly,
           practical, and rich of possibilities platform. This explains why you
           should utilize ph365 for your Lottery experience:
         </p>
-
-        <div>
-          <ul>
-            <li>
-              <strong>Think of ease and accessibility.</strong>
-              <p>
-                Our completely online platform helps ph365 to simplify Lottery
-                game enjoyment than it has ever been feasible. Few clicks will
-                log you into your account and start playing your chosen Lottery
-                games from home, at business, or on the road. Our platform is
-                made for desktop and mobile devices, thus you might have perfect
-                experience everywhere.
-              </p>
-            </li>
-            <li>
-              <strong>A Growing Selection of Games</strong>
-              <p>
-                We know that variation is essential since online gambling is
-                about that. With a wide selection of Lottery games available
-                from ph365, each with unique theme, gameplay approach, and
-                jackpot possibilities From classic fish-catching lottery games
-                to more complex decisions with multipliers and bonus rounds, you
-                will always have something fresh and fascinating to investigate.
-              </p>
-            </li>
-            <li>
-              <strong>Integrity and transparency</strong>
-              <p>
-                Our primary concerns at ph365 are openness and fairness so that
-                every participant has chances to succeed. Our Lottery games are
-                driven to ensure totally random and objective results using a
-                validated random number generator (RNG). Moreover, as our site
-                is licensed and under surveillance by reputable authorities,
-                playing gives you peace of mind.
-              </p>
-            </li>
-            <li>
-              <strong>Safe Exchange of Goods</strong>
-              <p>
-                The security of our players is very important. ph365 uses modern
-                encryption technology to protect your personal and financial
-                information so you may focus on enjoying your games free from
-                worries for data security. Whether you are depositing money,
-                withdrawing your earnings, or laying a wager, your transactions
-                are protected.
-              </p>
-            </li>
-            <li>
-              <strong>Jackpots and liberal bonuses</strong>
-              <p>
-                Lottery games have well-known massive prizes, and ph365 offers
-                some of the largest payouts in the company. Depending on the
-                game you play, the available advantages could be altered.
-                Regardless of your objectives—big win or just enjoy a fun and
-                satisfying experience—you will find many possibilities to walk
-                away with spectacular prizes.
-              </p>
-            </li>
-          </ul>
+        <div className="relative space-y-12 before:absolute before:left-4 sm:before:left-6 before:top-0 before:bottom-0 before:w-[1px] before:bg-cyan-600">
+          {steps.map((step, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
+              className="relative pl-10"
+            >
+              <div className="absolute left-0 sm:left-2 top-1 w-8 h-8 flex items-center justify-center rounded-full bg-cyan-600 text-white font-bold z-10">
+                {index + 1}
+              </div>
+              <div className="bg-white/5 p-6 rounded-xl shadow-lg backdrop-blur-sm">
+                <h3 className="text-lg sm:text-xl font-semibold text-white mb-1">
+                  {step.title}
+                </h3>
+                <p className="text-white/80 leading-relaxed">{step.desc}</p>
+              </div>
+            </motion.div>
+          ))}
         </div>
       </div>
     </section>
