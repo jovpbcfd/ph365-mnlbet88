@@ -1,18 +1,33 @@
+"use client";
+
+import { motion } from "framer-motion";
+
 export default function CommonAction() {
   return (
     <section>
       <div className="max-w-[1200px] mx-auto  text-white">
-        <h2 className="text-[30px] font-bold text-center my-2 lg:my-3">
+        <motion.h2
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="text-center text-[30px] lg:text-4xl font-bold bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent mb-2 lg:mb-10"
+        >
           Common Issues and Their Remedial Action
-        </h2>
+        </motion.h2>
         <p className="mt-2">
           We know that occasionally issues could arise even if we want our
           campaigns to be as perfect and entertaining as they could be. Here are
           some common problems you might run across coupled with guidelines on
           how to manage them:
         </p>
-        <div className="mt-4">
-          <ul className="list-decimal pl-5">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.4 }}
+          viewport={{ once: true }}
+          className="pb-10 flex flex-col lg:flex-row items-center gap-6"
+        >
+          <ul className="list-decimal pl-5 w-full lg:w-3/4">
             <li className="mt-2">
               <strong>Not Getting Approval</strong>
               <p>
@@ -51,7 +66,13 @@ export default function CommonAction() {
               </p>
             </li>
           </ul>
-        </div>
+          <div
+            className="w-full h-full lg:w-[400px] lg:h-[400px] border border-dashed border-white/20 
+          rounded-xl flex items-center justify-center text-sm text-white/60"
+          >
+            Image 1080x1080
+          </div>
+        </motion.div>
       </div>
     </section>
   );

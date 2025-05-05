@@ -1,3 +1,7 @@
+"use client";
+
+import { motion } from "framer-motion";
+
 import {
   Lightbulb,
   Wallet,
@@ -15,9 +19,14 @@ export default function SuccessTips() {
   return (
     <section className="py-16 px-4 sm:px-8 lg:px-16">
       <div className="max-w-[1200px] mx-auto">
-        <h2 className="text-4xl font-bold text-center text-white mb-6">
+        <motion.h2
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="text-center text-[30px] lg:text-4xl font-bold bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent mb-2 lg:mb-10"
+        >
           Success Tips for Betting
-        </h2>
+        </motion.h2>
         <p className="text-white text-center mb-10 max-w-2xl mx-auto">
           Betting can be both exciting and profitable when approached
           strategically. Here are some essential tips to help you improve your

@@ -1,20 +1,30 @@
+"use client";
+
+import { motion } from "framer-motion";
+
 import Dot from "@/components/dot";
 
 export default function Prizes() {
   return (
     <section>
       <div className="max-w-[1200px] mx-auto  text-white">
-        <h2 className="text-[30px] font-bold text-center my-2 lg:my-3">
+        <motion.h2 className="text-center text-[30px] lg:text-4xl font-bold bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent mb-2 lg:mb-10">
           Kinds of Prizes
-        </h2>
+        </motion.h2>
         <p className="mt-2">
           The intriguing reward range of the Daily Fortune Wheel is its finest
           feature. You might just strike the jackpot or win something little and
           enjoyable. The most often occurring prizes from the wheel are listed
           here:
         </p>
-        <div>
-          <ul>
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.4 }}
+          viewport={{ once: true }}
+          className="flex flex-col lg:flex-row items-center gap-6"
+        >
+          <ul className="w-full lg:w-3/4">
             <li className="flex items-center gap-4 mt-4">
               <div className="min-w-4 mb-auto mt-1">
                 <Dot />
@@ -98,7 +108,13 @@ export default function Prizes() {
               </div>
             </li>
           </ul>
-        </div>
+          <div
+            className="w-full h-full lg:w-[400px] lg:h-[400px] border border-dashed border-white/20 
+          rounded-xl flex items-center justify-center text-sm text-white/60"
+          >
+            Image 1080x1080
+          </div>
+        </motion.div>
       </div>
     </section>
   );

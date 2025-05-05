@@ -88,7 +88,7 @@ export default function CommonIssues() {
           </div>
         </div>
 
-        <div className="text-center mt-10 text-gray-500">
+        <div className="text-center mt-10">
           Should you need further help, visit the Help Center or get in touch
           with our support team.
         </div>

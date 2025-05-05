@@ -60,7 +60,7 @@ export default function Faq({ questions }: { questions: Faq[] }) {
               <div
                 id={`faq-content-${index}`}
                 role="region"
-                className={`transition-[max-height] ease-in-out duration-300 overflow-hidden ${
+                className={`transition-[max-height] ease-in-out duration-300 overflow-hidden px-4 ${
                   openIndex === index ? "max-h-full" : "max-h-0"
                 }`}
                 aria-hidden={openIndex !== index}

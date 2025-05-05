@@ -1,3 +1,7 @@
+"use client";
+
+import { motion } from "framer-motion";
+
 import { Timelines } from "@/components/timeline";
 
 import { data as iosData } from "@/data/download-guide-ios";
@@ -7,9 +11,14 @@ export default function Guide() {
   return (
     <section>
       <div className="max-w-[1200px] mx-auto py-10 text-white">
-        <h2 className="text-[30px] font-bold text-center my-2 lg:my-3">
+        <motion.h2
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="text-center text-[30px] lg:text-4xl font-bold bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent mb-2 lg:mb-10"
+        >
           Installing the ph365 App on iOS and Android Devices: A Guide
-        </h2>
+        </motion.h2>
         <p className="mt-2">
           Wish to play engaging, safe, and seamless games on your mobile device?
           The ideal answer is the ph365 mobile app. Our software is meant to
@@ -21,20 +30,34 @@ export default function Guide() {
           most recent version of the ph365 app whether your phone is an iPhone
           or an Android.
         </p>
-        <div>
+        <div className="mt-5 lg:mt-10">
           <div>
-            <h3>For Android Users</h3>
+            <motion.h3
+              initial={{ opacity: 0, y: 40 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              className="text-left text-[30px] lg:text-4xl font-bold bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent mb-2 lg:mb-10"
+            >
+              For iPhone/iOS users:
+            </motion.h3>
           </div>
           <Timelines data={iosData} />
         </div>
         <div>
           <div>
-            <h3>For Android Users</h3>
+            <motion.h3
+              initial={{ opacity: 0, y: 40 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              className="text-left text-[30px] lg:text-4xl font-bold bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent mb-2 lg:mb-10"
+            >
+              For Android Users:
+            </motion.h3>
           </div>
           <Timelines data={androidData} />
         </div>
         <div>
-          <p>
+          <p className="text-center">
             You are now completely equipped to investigate our large selection
             of games, bonuses, and special deals!
           </p>

@@ -1,20 +1,28 @@
+"use client";
+
+import { motion } from "framer-motion";
 import Dot from "@/components/dot";
 
 export default function ChooseSportsBook() {
   return (
-    <section>
+    <section className="py-6 px-4">
       <div className="max-w-[1200px] mx-auto  text-white">
-        <h2 className="text-[30px] font-bold text-center my-2 lg:my-3">
+        <motion.h2
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="text-center text-[30px] lg:text-4xl font-bold bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent mb-2 lg:mb-10"
+        >
           Why Choose a Sportsbook?
-        </h2>
+        </motion.h2>
         <p className="mt-2">
           Understanding why Sportsbook is one of the top choices for Filipino
           bettors helps you appreciate the finer details of what makes a
           platform reliable and fun. Sportsbook gathers the key components
           needed for a fantastic betting experience:
         </p>
-        <div>
-          <ul>
+        <div className="flex flex-col lg:flex-row items-center gap-6">
+          <ul className="w-full lg:w-3/4">
             <li className="flex items-center gap-4 mt-4">
               <div className="min-w-4 mb-auto mt-1">
                 <Dot />
@@ -79,6 +87,12 @@ export default function ChooseSportsBook() {
               </div>
             </li>
           </ul>
+          <div
+            className="w-full h-full lg:w-[400px] lg:h-[400px] border border-dashed border-white/20 
+          rounded-xl flex items-center justify-center text-sm text-white/60"
+          >
+            Image 1080x1080
+          </div>
         </div>
       </div>
     </section>

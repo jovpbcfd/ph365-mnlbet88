@@ -1,11 +1,20 @@
+"use client";
+
+import { motion } from "framer-motion";
+
 export default function GetTheApp() {
   return (
     <section>
       <div className="max-w-[1200px] mx-auto  text-white">
-        <h2 className="text-[30px] font-bold text-center my-2 lg:my-3">
+        <motion.h2
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="text-center text-[30px] lg:text-4xl font-bold bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent mb-2 lg:mb-10"
+        >
           Get the ph365 app right away; don&apos;t wait.
-        </h2>
-        <p className="mt-2">
+        </motion.h2>
+        <p className="mt-2 lg:pb-5">
           Download the ph365 app right now to find the best experience in fun
           and easy gaming! The software lets you launch unlimited games, enjoy
           home casino games, online slots, live casino or fishing games, and

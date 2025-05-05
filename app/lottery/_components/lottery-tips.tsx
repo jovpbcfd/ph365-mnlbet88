@@ -6,7 +6,7 @@ import Dot from "@/components/dot";
 export default function Tips() {
   return (
     <section>
-      <div className="max-w-[1200px] mx-auto  text-white">
+      <div className="max-w-[1200px] mx-auto text-white">
         <motion.h2
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
@@ -15,12 +15,17 @@ export default function Tips() {
         >
           Tips for Increasing Your Prospect of Success
         </motion.h2>
-        <p className="mt-2">
+        <p className="mt-2 lg:mb-10">
           Lottery is primarily a question of chance, however, you could use
           several strategies to increase your chances of success:
         </p>
-        <div>
-          <ul>
+        <div className="pb-10 flex flex-col lg:flex-row items-center gap-6">
+          <motion.ul
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="w-full lg:w-3/4"
+          >
             <li className="flex items-center gap-4 mt-4">
               <div className="min-w-4 mb-auto mt-1">
                 <Dot />
@@ -62,7 +67,13 @@ export default function Tips() {
                 </p>
               </div>
             </li>
-          </ul>
+          </motion.ul>
+          <div
+            className="w-full h-full lg:w-[400px] lg:h-[400px] border border-dashed border-white/20 
+          rounded-xl flex items-center justify-center text-sm text-white/60"
+          >
+            Image 1080x1080
+          </div>
         </div>
       </div>
     </section>

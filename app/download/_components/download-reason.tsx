@@ -1,19 +1,27 @@
+"use client";
+
+import { motion } from "framer-motion";
 import Dot from "@/components/dot";
 
 export default function ReasonsForDownloading() {
   return (
-    <section>
+    <section className="py-6 px-4">
       <div className="max-w-[1200px] mx-auto  text-white">
-        <h2 className="text-[30px] font-bold text-center my-2 lg:my-3">
+        <motion.h2
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="text-center text-[30px] lg:text-4xl font-bold bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent mb-2 lg:mb-10"
+        >
           Reasons for Downloading the ph365 App
-        </h2>
+        </motion.h2>
         <p className="mt-2">
           Our smartphone app brings all the games and features of the ph365 just
           a swipe away! For this reason, downloading our app is the best choice
           you could make.
         </p>
-        <div>
-          <ul>
+        <div className="flex flex-col lg:flex-row items-center gap-6">
+          <ul className="w-full lg:w-3/4">
             <li className="flex items-center gap-4 mt-4">
               <div className="min-w-4 mb-auto mt-1">
                 <Dot />
@@ -95,9 +103,15 @@ export default function ReasonsForDownloading() {
               </div>
             </li>
           </ul>
+          <div
+            className="w-full h-full lg:w-[400px] lg:h-[400px] border border-dashed border-white/20 
+          rounded-xl flex items-center justify-center text-sm text-white/60"
+          >
+            Image 1080x1080
+          </div>
         </div>
         <div>
-          <p>
+          <p className="lg:mt-4">
             Now is the moment to start taking advantage of all the thrilling
             features and tools waiting for ph365 users on the app ready for
             download; fingers crossed for even more fantastic benefits in store
