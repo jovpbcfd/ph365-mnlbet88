@@ -1,4 +1,4 @@
-export default function Dot({ classname }: { classname: string | undefined }) {
+export default function Dot({ classname }: { classname?: string | undefined }) {
   return (
     <div
       className={`h-2 w-2  rounded-full bg-white dark:bg-black flex items-center justify-center ${classname}`}
