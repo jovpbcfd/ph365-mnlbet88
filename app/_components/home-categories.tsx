@@ -7,13 +7,13 @@ import { categories } from "@/data/categories";
 
 export default function Categories() {
   return (
-    <section className="bg-blue-950 text-white py-6">
+    <section className="bg-white text-white py-10">
       <div className="max-w-6xl mx-auto px-4">
         <motion.h2
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-center text-[30px] lg:text-4xl font-bold mb-10 bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent"
+          className="text-center text-[30px] lg:text-4xl font-bold mb-10 bg-[#FF5561] bg-clip-text text-transparent lg:mb-12"
         >
           Game Categories We Offer at Ph365
         </motion.h2>
@@ -26,7 +26,7 @@ export default function Categories() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1, duration: 0.5 }}
-              className="flex flex-col lg:flex-row items-center gap-6 bg-blue-900/40 border border-blue-800 p-6 rounded-xl hover:shadow-lg hover:shadow-cyan-500/10 transition-shadow"
+              className="flex flex-col lg:flex-row items-center gap-6 bg-[#100844] border border-[#100844] p-6 rounded-xl hover:shadow-lg hover:shadow-cyan-500/10 transition-shadow"
             >
               {/* <Image
                 src={cat.image}
@@ -40,10 +40,10 @@ export default function Categories() {
               </div>
               <div className="flex-1 space-y-2">
                 <div className="flex items-center gap-3">
-                  <Dot />
+                  <Dot classname={undefined} />
                   <h3 className="text-xl font-semibold">{cat.title}</h3>
                 </div>
-                <p className="text-gray-300">{cat.desc}</p>
+                <p className="text-white">{cat.desc}</p>
               </div>
             </motion.li>
           ))}
@@ -53,7 +53,7 @@ export default function Categories() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.6 }}
-          className="mt-10 text-center text-gray-300"
+          className="mt-10 text-center text-black"
         >
           To our game catalog, we regularly include fresh releases from top game
           developers such Microgaming, NetEnt, Evolution Gaming, and others.

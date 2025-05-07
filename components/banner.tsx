@@ -14,13 +14,13 @@ export default function Banner({ data }: { data: BannerData[] }) {
         {data.map((item, index) => (
           <div
             key={index}
-            className="bg-blue-950 rounded-2xl p-6 border border-white/10 shadow-xl flex flex-col justify-between h-full"
+            className="bg-white rounded-2xl p-6 border border-dark/10 shadow-xl flex flex-col justify-between h-full"
           >
-            <div className="w-full h-[200px] flex items-center justify-center rounded-xl border border-dashed border-white/20 text-white text-sm">
+            <div className="w-full h-[200px] flex items-center justify-center rounded-xl border border-dashed border-dark/20 text-black dark:text-white text-sm">
               Image 600x200
             </div>
 
-            <p className="text-white font-semibold mt-4 text-base md:text-lg">
+            <p className="text-black font-semibold mt-4 text-base dark:text-white md:text-lg">
               {item.description}
             </p>
 

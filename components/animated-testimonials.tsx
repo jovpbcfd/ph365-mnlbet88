@@ -4,7 +4,7 @@ import { MoveRight, MoveLeft } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 
 import { useEffect, useState } from "react";
-// import Image from "next/image";
+import Image from "next/image";
 
 type Testimonial = {
   id: string;
@@ -89,17 +89,17 @@ export const AnimatedTestimonials = ({
                   }}
                   className="absolute inset-0 origin-bottom w-[200px] h-[200px] md:w-[300px] md:h-[300px] lg:w-[500px] lg:h-[500px]"
                 >
-                  <div className="w-full h-full flex items-center justify-center border border-dashed border-white/20 rounded-md text-white">
+                  {/* <div className="w-full h-full flex items-center justify-center border border-dashed border-black/20 rounded-md text-black">
                     Image 1080x1080
-                  </div>
-                  {/* <Image
+                  </div> */}
+                  <Image
                     src={testimonial.src}
                     alt={testimonial.name}
                     width={500}
                     height={500}
                     draggable={false}
                     className="h-full w-full rounded-3xl object-cover object-center"
-                  /> */}
+                  />
                 </motion.div>
               ))}
             </AnimatePresence>
@@ -125,13 +125,13 @@ export const AnimatedTestimonials = ({
               ease: "easeInOut",
             }}
           >
-            <h3 className="text-2xl text-white font-bold lg:text-4xl">
+            <h3 className="text-2xl text-[#ff5561] font-bold lg:text-4xl">
               {testimonials[active].name}
             </h3>
-            <p className="text-sm text-white dark:text-neutral-500 lg:text-xl">
+            <p className="text-sm text-dark font-bold dark:text-white lg:text-xl">
               {testimonials[active].designation}
             </p>
-            <motion.p className="mt-8 text-white dark:text-neutral-300">
+            <motion.p className="mt-8 text-dark dark:text-white">
               {testimonials[active].quoteOne.split(" ").map((word, index) => (
                 <motion.span
                   key={index}
@@ -156,7 +156,7 @@ export const AnimatedTestimonials = ({
                 </motion.span>
               ))}
             </motion.p>
-            <motion.p className="mt-4 text-white dark:text-neutral-300">
+            <motion.p className="mt-4 text-dark dark:text-white">
               {testimonials[active].quoteTwo.split(" ").map((word, index) => {
                 const quoteOneLength =
                   testimonials[active].quoteOne.split(" ").length;

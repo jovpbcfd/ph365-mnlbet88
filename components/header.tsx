@@ -9,7 +9,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-gradient-to-r from-blue-900 to-blue-700 text-white">
+    <header className="bg-[#4b47fd] text-white">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
         <Link
           href="/"
@@ -40,7 +40,7 @@ export default function Header() {
         </div>
       </div>
 
-      <nav className="hidden md:block bg-blue-950 border-t border-white/10">
+      <nav className="hidden md:block bg-[#4b47fd] border-t border-white/10">
         <div className="max-w-6xl mx-auto px-4">
           <Navigation className="flex items-center justify-center space-x-6 py-3 text-sm font-medium" />
         </div>

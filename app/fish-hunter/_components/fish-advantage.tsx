@@ -4,13 +4,13 @@ import { motion } from "framer-motion";
 
 export default function Advantage() {
   return (
-    <section>
-      <div className="max-w-[1200px] mx-auto  text-white">
+    <section className="bg-white lg:pt-15">
+      <div className="max-w-[1200px] mx-auto text-black">
         <motion.h2
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-center text-[30px] lg:text-4xl font-bold bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent mb-2 lg:mb-10"
+          className="text-center text-[30px] lg:text-4xl font-bold text-[#FF5561] mb-2 lg:mb-10"
         >
           Advantages of Fish Hunter at ph365
         </motion.h2>
@@ -20,7 +20,7 @@ export default function Advantage() {
         </p>
         <motion.div className="mt-4">
           <p className="mt-2">
-            <strong className="bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent lg:text-xl">
+            <strong className="text-[#FF5561] lg:text-xl">
               Safe and Secure Environment:
             </strong>{" "}
             Because ph365 is a legal online casino, they make sure that all of
@@ -29,7 +29,7 @@ export default function Advantage() {
             and safety in the industry.
           </p>
           <p className="mt-2">
-            <strong className="bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent lg:text-xl">
+            <strong className="text-[#FF5561] lg:text-xl">
               Wide Range of Fish Hunter:{" "}
             </strong>{" "}
             Our large range of Fish Hunter means you&apos;ll always be able to
@@ -37,7 +37,7 @@ export default function Advantage() {
             choices, whether you like low-stakes games or casual fishing.
           </p>
           <p className="mt-2">
-            <strong className="bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent lg:text-xl">
+            <strong className="text-[#FF5561] lg:text-xl">
               Mobile Compatibility:{" "}
             </strong>{" "}
             ph365 works with all mobile devices, so you can play Fish Hunter
@@ -46,7 +46,7 @@ export default function Advantage() {
             or tablet. There will be no speed loss.
           </p>
           <p className="mt-2">
-            <strong className="bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent lg:text-xl">
+            <strong className="text-[#FF5561] lg:text-xl">
               Exciting Bonuses and Deals:{" "}
             </strong>
             We love giving our players bonuses and deals that are worth a lot of

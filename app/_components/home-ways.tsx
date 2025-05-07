@@ -5,13 +5,13 @@ import { motion } from "framer-motion";
 
 export default function Ways() {
   return (
-    <section className="bg-blue-950 text-white py-6">
+    <section className="bg-white text-dark dark:text-white pt-10 pb-6 px-4">
       <div className="max-w-[1200px] mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-center text-[30px] lg:text-4xl font-bold bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent mb-2 lg:mb-10"
+          className="text-center text-[30px] lg:text-4xl font-bold text-[#FF5561] mb-2 lg:mb-12"
         >
           Many Ways to Pay: Simple Transactions for Outstanding Gaming
         </motion.h2>
@@ -21,7 +21,7 @@ export default function Ways() {
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
-            className="w-full lg:w-1/2 space-y-5"
+            className="w-full lg:w-3/4 space-y-5"
           >
             <p>
               At ph365, we understand that great and enjoyable playing
@@ -51,7 +51,7 @@ export default function Ways() {
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
-            className="w-full lg:w-[350px] h-[350px] flex items-center justify-center border border-dashed border-white/20 rounded-md text-center text-white"
+            className="w-full lg:w-[350px] h-[350px] flex items-center justify-center border border-dashed border-dark/20 rounded-md text-center text-dark"
           >
             {/* h-auto */}
             {/* <Image

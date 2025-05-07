@@ -10,7 +10,7 @@ export default function Welcome() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-center text-[35px] lg:text-5xl font-bold bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent mb-2 lg:mb-10"
+          className="text-center text-[35px] lg:text-5xl font-bold text-[#FF5561] mb-2 lg:mb-12"
         >
           Welcome to ph365: The Ultimate Destination for Online Gaming
           Excellence

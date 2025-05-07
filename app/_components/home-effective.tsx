@@ -3,13 +3,13 @@ import { motion } from "framer-motion";
 
 export default function Effective() {
   return (
-    <section>
-      <div className="max-w-[1200px] mx-auto text-white lg:py-6">
+    <section className="bg-white py-6 px-4">
+      <div className="max-w-[1200px] mx-auto text-dark dark:text-white">
         <motion.h2
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-[30px] font-bold text-center mb-2 lg:mb-10 bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent lg:text-4xl"
+          className="text-[30px] font-bold text-center mb-2 lg:mb-10 text-[#FF5561] lg:text-4xl"
         >
           The Most Effective Protection for Your Privacy and Data
         </motion.h2>

@@ -10,7 +10,7 @@ export default function PlayerExperience() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-center text-[30px] lg:text-4xl font-bold bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent mb-2 lg:mb-10"
+          className="text-center text-[30px] lg:text-4xl font-bold text-[#FF5561] mb-2 lg:mb-10"
         >
           What role online betting sites play in the player experience
         </motion.h2>
@@ -18,7 +18,6 @@ export default function PlayerExperience() {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
           className="flex flex-col lg:flex-row items-center gap-6"
         >
           <div className="w-full h-full lg:w-[400px] lg:h-[400px] border border-dashed border-white/20 rounded-xl flex items-center justify-center text-sm text-white/60">
@@ -60,7 +59,6 @@ export default function PlayerExperience() {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          viewport={{ once: true }}
         >
           <p className="leading-relaxed mt-2">
             Among several live dealer games available at ph365 are Live
@@ -88,7 +86,6 @@ export default function PlayerExperience() {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          viewport={{ once: true }}
           className="flex flex-col lg:flex-row-reverse items-center gap-6"
         >
           <div className="w-full h-full lg:w-[400px] lg:h-[400px] border border-dashed border-white/20 rounded-xl flex items-center justify-center text-sm text-white/60">

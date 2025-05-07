@@ -5,7 +5,7 @@ export const discoveriesData = [
         quoteTwo: `Given our paylines are relatively versatile, our slots give players several chances to win. Paylines from a few to several hundred provide players different chances to find winning combos. Many of our slot games also have special symbols including wilds, scatters, and multipliers as well as bonus rounds aimed to raise your gains. Whether your taste is for ancient fruit machines or sophisticated video slots with inventive mechanisms, ph365's range is geared to suit every player's desire.`,
         name: 'Slots Games:',
         designation: 'An Excite Universe of Diversification',
-        src: "/img/discoveries-sample.jpg"
+        src: "/img/home/2. Slots Games 1080x1080.webp"
     },
     {
         id: 'V7bL2Q',
@@ -13,7 +13,7 @@ export const discoveriesData = [
         quoteTwo: `Even more thrill comes from the variety of special qualities fishing games offer. Many fishing games feature multiplies, extra rounds, and power-ups aimed to enhance gameplay and increase winning chances. Regardless of your degree of understanding, fishing games at ph365 provide a fun and satisfying experience that is both peaceful and exciting at once.`,
         name: 'Fishing Games:',
         designation: 'Thrill from The Catch',
-        src: "/img/discoveries-sample.jpg"
+        src: "/img/home/3. Fishing Game.webp"
     },
     {
         id: 'F3hT9X',
@@ -21,7 +21,7 @@ export const discoveriesData = [
         quoteTwo: `Though their laws are the same as those of their land-based counterparts, the real-time feature of live casino games provides a unique and interesting experience. The live casino part of ph365 places the casino right in your living room, whether your taste is for the fast-paced action of live blackjack or the excitement of a roulette wheel spinning.`,
         name: 'Live Casino:',
         designation: 'Peak Real-World Knowledge',
-        src: "/img/discoveries-sample.jpg"
+        src: "/img/home/4. Live Casino 1080x1080.webp"
     },
     {
         id: "J1nZ5D",
@@ -29,7 +29,7 @@ export const discoveriesData = [
         quoteTwo: `Whether you're playing a basic game of poker or fighting other players in a PVP match, ph365's card games are made to offer great excitement. Every game has unique rules and adjustments; hence, before starting any game, you should familiarize yourself with the specific elements.`,
         name: 'Card Games:',
         designation: 'Where strategy meets skill level',
-        src: "/img/discoveries-sample.jpg"
+        src: "/img/home/5. Card Games 1080x1080.webp"
     },
     {
         id: "W4sP8E",
@@ -37,7 +37,7 @@ export const discoveriesData = [
         quoteTwo: `Making a sports bet is simple: choose your sport, then decide on an event and finally choose the outcome you believe would occur. Still, one must understand the odds and how they work if one wants to make intelligent bets. By providing comprehensive information to help you to make better decisions, ph365 enhances your complete betting experience.`, 
         name: 'Sports Betting:',
         designation: 'Support Your Choice of Teams',
-        src: "/img/discoveries-sample.jpg"
+        src: "/img/home/6. Sports Betting 1080x1080.webp"
     },
     {
         id: 'M2vB0K',
@@ -45,6 +45,6 @@ export const discoveriesData = [
         quoteTwo: `Lottery games are a terrific and easy way to participate in a worldwide gaming experience since one has the chance to win big amounts of money. Every lottery result are displayed straight on our website; any winners are immediately deposited to your account, therefore ensuring a perfect and hassle-free transaction.`,
         name: 'Lottery:',
         designation: 'Your Big Win Probability',
-        src: "/img/discoveries-sample.jpg"
+        src: "/img/home/1. Lottery 1080x1080.webp"
     },
 ]

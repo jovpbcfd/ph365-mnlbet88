@@ -6,13 +6,13 @@ import { motion } from "framer-motion";
 
 export default function Guide() {
   return (
-    <section>
+    <section className="py-6 px-4">
       <div className="max-w-[1200px] mx-auto text-white lg:my-8">
         <motion.h2
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-center text-[30px] font-bold bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent lg:text-4xl lg:mb-5"
+          className="text-center text-[30px] font-bold text-[#FF5561] lg:text-4xl lg:mb-12"
         >
           Comprehensive Guide on Joining ph365 Casino Step-by- Step
         </motion.h2>

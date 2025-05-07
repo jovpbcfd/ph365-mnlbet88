@@ -14,7 +14,7 @@ const menuItems = [
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-r from-blue-900 to-blue-700 text-white">
+    <footer className="bg-[#4b47fd] text-white">
       <div className="max-w-6xl mx-auto px-4 py-12 grid grid-cols-1 lg:grid-cols-2 gap-8">
         <div className="space-y-3">
           <Link
@@ -23,7 +23,7 @@ export default function Footer() {
           >
             PH365
           </Link>
-          <p className="text-gray-300 text-sm max-w-md">
+          <p className="text-white text-sm max-w-md">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
             maxime assumenda quidem error molestiae a.
           </p>
@@ -34,7 +34,7 @@ export default function Footer() {
             <Link
               key={index}
               href={item.href}
-              className="flex items-center space-x-2 hover:text-cyan-400 transition-colors duration-200"
+              className="flex items-center space-x-2 hover:text-[#FF5561] transition-colors duration-200"
             >
               <span className="text-base">»</span>
               <span>{item.name}</span>
@@ -43,7 +43,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="border-t border-white/10 py-6 text-center text-gray-300 text-sm">
+      <div className="border-t border-white/10 py-6 text-center text-white text-sm">
         © {new Date().getFullYear()} PH365. All rights reserved.
       </div>
     </footer>

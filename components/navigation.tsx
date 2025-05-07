@@ -18,7 +18,7 @@ export default function Navigation({ className = "" }: NavigationProps) {
         { name: "LIVE CASINO", href: "/live-casino" },
         { name: "CARD GAME", href: "/card-game" },
       ].map((item, idx) => (
-        <li key={idx} className="hover:text-cyan-400 transition-colors">
+        <li key={idx} className="hover:text-[#ff5561] transition-colors">
           <Link href={item.href} className="block w-full h-full">
             {item.name}
           </Link>

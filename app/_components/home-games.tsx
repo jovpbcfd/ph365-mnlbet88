@@ -3,7 +3,7 @@ import { discoveriesData } from "@/data/discoveries";
 
 export default function Games() {
   return (
-    <section>
+    <section className="bg-white">
       <AnimatedTestimonials testimonials={discoveriesData} autoplay={false} />
     </section>
   );

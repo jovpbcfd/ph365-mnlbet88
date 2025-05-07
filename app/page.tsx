@@ -15,7 +15,7 @@ import CustomerService from "./_components/home-customer-service";
 export default function Home() {
   return (
     <>
-      <section>
+      <section className="bg-white lg:pt-8">
         <div className="max-w-[1200px] mx-auto">
           <Slider />
         </div>

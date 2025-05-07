@@ -36,23 +36,17 @@ const bets = [
     description:
       "Wager on specific events within the game (e.g. first player to score, number of home runs, etc). Adds more excitement.",
   },
-  {
-    icon: <TimerReset className="w-6 h-6 text-blue-500" />,
-    title: "5. Live Betting",
-    description:
-      "Place bets in real-time as the game unfolds. Odds change fast, making it thrilling and dynamic.",
-  },
 ];
 
 export default function TypesOfSportsBook() {
   return (
-    <section className="py-6 px-4">
+    <section className="py-6 px-4 lg:pt-10 lg:pb-15">
       <div className="max-w-[1200px] mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-center text-[30px] lg:text-4xl font-bold bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent mb-2 lg:mb-10"
+          className="text-center text-[30px] lg:text-4xl font-bold text-[#FF5561] mb-2 lg:mb-10"
         >
           Types of Bets on Sportsbook
         </motion.h2>
@@ -73,7 +67,6 @@ export default function TypesOfSportsBook() {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.4 }}
-                viewport={{ once: true }}
               >
                 <h3 className="text-xl font-semibold text-black mb-1 ">
                   {bet.title}
@@ -85,7 +78,26 @@ export default function TypesOfSportsBook() {
             </div>
           ))}
         </div>
-
+        <div className="flex items-center justify-center w-full">
+          <div className="bg-white shadow-lg hover:shadow-blue-200 mx-auto mt-8 transition-shadow duration-300 rounded-xl p-6 border border-gray-100 inline-flex items-start gap-4">
+            <div>
+              <TimerReset className="w-6 h-6 text-blue-500" />
+            </div>
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.4 }}
+            >
+              <h3 className="text-xl font-semibold text-black mb-1">
+                5. Live Betting
+              </h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Place bets in real-time as the game unfolds. Odds change fast,
+                making it thrilling and dynamic.
+              </p>
+            </motion.div>
+          </div>
+        </div>
         <p className="mt-12 text-center text-white max-w-2xl mx-auto">
           Whether you&apos;re new to betting or a seasoned pro, understanding
           these wager types can add excitement and strategy to your sports
