@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function Ways() {
   return (
-    <section className="bg-white text-dark dark:text-white pt-10 pb-6 px-4">
+    <section className="bg-white text-dark dark:text-white pt-10 pb-6 px-4 lg:pt-15">
       <div className="max-w-[1200px] mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 40 }}

@@ -7,7 +7,7 @@ import { categories } from "@/data/categories";
 
 export default function Categories() {
   return (
-    <section className="bg-white text-white py-10">
+    <section className="bg-white text-white py-6 px-4 lg:py-15">
       <div className="max-w-6xl mx-auto px-4">
         <motion.h2
           initial={{ opacity: 0, y: 40 }}

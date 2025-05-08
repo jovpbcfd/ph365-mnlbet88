@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function Effective() {
   return (
-    <section className="bg-white py-6 px-4">
+    <section className="bg-white py-6 px-4 lg:pb-15">
       <div className="max-w-[1200px] mx-auto text-dark dark:text-white">
         <motion.h2
           initial={{ opacity: 0, y: 40 }}

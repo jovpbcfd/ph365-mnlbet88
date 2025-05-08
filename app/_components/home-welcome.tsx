@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export default function Welcome() {
   return (
     <section>
-      <div className="max-w-[1200px] mx-auto z-20 pt-15 pb-2 text-white">
+      <div className="max-w-[1200px] mx-auto z-20 pb-2 text-white lg:pt-15">
         <motion.h1
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}

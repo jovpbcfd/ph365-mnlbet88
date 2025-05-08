@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export default function Discover() {
   return (
     <section>
-      <div className="max-w-[1200px] mx-auto text-white lg:py-6">
+      <div className="max-w-[1200px] mx-auto text-white lg:pb-15">
         <motion.h2
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function CustomerService() {
   return (
-    <section className="relative overflow-hidden py-12 bg-[#241D56] text-white">
+    <section className="relative overflow-hidden py-6 px-4 bg-[#241D56] text-white lg:py-15">
       <div className="max-w-4xl mx-auto px-4">
         <motion.h2
           initial={{ opacity: 0, y: 40 }}

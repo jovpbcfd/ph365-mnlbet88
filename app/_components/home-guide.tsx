@@ -6,8 +6,8 @@ import { motion } from "framer-motion";
 
 export default function Guide() {
   return (
-    <section className="py-6 px-4">
-      <div className="max-w-[1200px] mx-auto text-white lg:my-8">
+    <section className="py-6 px-4 lg:py-15">
+      <div className="max-w-[1200px] mx-auto text-white">
         <motion.h2
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}

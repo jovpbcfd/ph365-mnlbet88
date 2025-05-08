@@ -1,10 +1,15 @@
+"use client";
+
+import { usePathname } from "next/navigation";
 import Link from "next/link";
+import { cn } from "@/lib/utils";
 
 type NavigationProps = {
   className?: string;
 };
 
 export default function Navigation({ className = "" }: NavigationProps) {
+  const pathname = usePathname();
   return (
     <ul className={`${className}`}>
       {[
@@ -19,7 +24,13 @@ export default function Navigation({ className = "" }: NavigationProps) {
         { name: "CARD GAME", href: "/card-game" },
       ].map((item, idx) => (
         <li key={idx} className="hover:text-[#ff5561] transition-colors">
-          <Link href={item.href} className="block w-full h-full">
+          <Link
+            href={item.href}
+            className={cn(
+              "block w-full h-full",
+              pathname === item.href ? "text-[#ff5561]" : ""
+            )}
+          >
             {item.name}
           </Link>
         </li>
