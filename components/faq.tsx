@@ -29,7 +29,7 @@ export default function Faq({ questions }: { questions: Faq[] }) {
 
         <div className="md:px-24 md:my-10">
           {questions.map((faq, index) => (
-            <div key={index} className="text-white my-4 bg-[#252B73] ">
+            <div key={index} className="text-white my-4 bg-[#100844] ">
               <h3>
                 <button
                   onClick={() => toggleFAQ(index)}

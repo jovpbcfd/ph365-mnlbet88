@@ -1,8 +1,8 @@
 export default function DifferentWays() {
   return (
-    <section>
+    <section className="py-6 px-4 lg:pb-15">
       <div className="max-w-[1200px] mx-auto  text-white">
-        <h2 className="text-[30px] font-bold text-center my-2 lg:my-3">
+        <h2 className="text-[30px] font-bold text-center text-[#FF5561] my-2 lg:text-4xl lg:mb-10">
           Different ways to play card games
         </h2>
         <p className="mt-2">
@@ -10,24 +10,24 @@ export default function DifferentWays() {
           can do to improve your chances of winning. The following tips should
           help you remember:
         </p>
-        <div>
-          <ul className="list-decimal">
-            <li>
+        <div className="lg:py-7">
+          <ul className="pl-10 list-decimal">
+            <li className="mt-2">
               Pay close attention to the rules of the game before you start.
               Which will help you make decisions and avoid mistakes that cost a
               lot of money.
             </li>
-            <li>
+            <li className="mt-2">
               A lot of our card games let you play for free so you can get
               better without losing real money. The way you&apos;re playing is
               great for getting used to how the game works.
             </li>
-            <li>
+            <li className="mt-2">
               Plan when you&apos;ll play games and stick to that budget. This
               will keep you from paying too much and let you keep the fun in
               gaming.
             </li>
-            <li>
+            <li className="mt-2">
               There are easy ways to improve your chances of winning at
               blackjack and some other games. Look over these strategies and use
               them in your game.

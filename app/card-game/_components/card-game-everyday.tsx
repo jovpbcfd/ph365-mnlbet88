@@ -4,15 +4,15 @@ import { motion } from "framer-motion";
 
 export default function EverydayCardGames() {
   return (
-    <section className="py-6 px-4">
+    <section className="py-6 px-4 lg:pb-15">
       <div className="max-w-[1200px] mx-auto  text-white">
         <motion.h2
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-center text-[30px] lg:text-4xl font-bold bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent mb-2 lg:mb-10"
+          className="text-center text-[30px] lg:text-4xl font-bold text-[#FF5561] mb-2 lg:mb-10"
         >
-          ph365 Card Games: How They Work
+          Everyday Card Games
         </motion.h2>
         <p className="mt-2">
           Usually involving real cards, people play card games with each other

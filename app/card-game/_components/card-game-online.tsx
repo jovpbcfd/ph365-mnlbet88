@@ -4,13 +4,13 @@ import { motion } from "framer-motion";
 
 export default function CardGameOnline() {
   return (
-    <section className="py-6 px-4">
-      <div className="max-w-[1200px] mx-auto  text-white">
+    <section className="py-6 px-4 bg-white lg:pt-15">
+      <div className="max-w-[1200px] mx-auto text-black dark:text-white">
         <motion.h2
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-center text-[30px] lg:text-4xl font-bold bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent mb-2 lg:mb-10"
+          className="text-center text-[30px] lg:text-4xl font-bold text-[#FF5561] mb-2 lg:mb-10"
         >
           Play card games online
         </motion.h2>
@@ -46,8 +46,8 @@ export default function CardGameOnline() {
             </p>
           </div>
           <div
-            className="w-full h-full lg:w-[300px] lg:h-[300px] border border-dashed border-white/20 
-          rounded-xl flex items-center justify-center text-sm text-white/60"
+            className="w-full h-full lg:w-[300px] lg:h-[300px] border border-dashed border-black/20 
+          rounded-xl flex items-center justify-center text-sm text-black/60"
           >
             Image 1080x1080
           </div>

@@ -4,13 +4,13 @@ import { motion } from "framer-motion";
 
 export default function Welcome() {
   return (
-    <section>
-      <div className="max-w-[1200px] mx-auto py-10 text-white">
+    <section className="py-10 lg:pt-15">
+      <div className="max-w-[1200px] mx-auto text-white">
         <motion.h1
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-center text-[35px] lg:text-5xl font-bold bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent mb-2 lg:mb-10"
+          className="text-center text-[35px] lg:text-5xl font-bold text-[#FF5561] mb-2 lg:mb-10"
         >
           The Ultimate Guide to Lottery by ph365: A Universe of Thrilling
           Possibilities and Huge Wins

@@ -5,13 +5,13 @@ import Dot from "@/components/dot";
 
 export default function Options() {
   return (
-    <section className="py-6 px-4">
+    <section className="py-6 px-4 lg:pt-15">
       <div className="max-w-[1200px] mx-auto text-white">
         <motion.h2
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-center text-[30px] lg:text-4xl font-bold bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent mb-2 lg:mb-10"
+          className="text-center text-[30px] lg:text-4xl font-bold text-[#FF5561] mb-2 lg:mb-10"
         >
           Review of ph365 Card Games: Lots of Options
         </motion.h2>
@@ -26,7 +26,7 @@ export default function Options() {
             <ul>
               <li className="flex items-start gap-4 lg:mt-2">
                 <div>
-                  <Dot />
+                  <Dot classname="mt-2" />
                 </div>
                 <div>
                   Among the several variations of poker are Texas Hold&apos;em,
@@ -35,7 +35,7 @@ export default function Options() {
               </li>
               <li className="flex items-start gap-4 lg:mt-2">
                 <div>
-                  <Dot />
+                  <Dot classname="mt-2" />
                 </div>
                 <div>
                   Gamblers are aware that blackjack is a game needing both luck
@@ -44,7 +44,7 @@ export default function Options() {
               </li>
               <li className="flex items-start gap-4 lg:mt-2">
                 <div>
-                  <Dot />
+                  <Dot classname="mt-2" />
                 </div>
                 <div>
                   New players as well as high rollers will find immense
@@ -53,7 +53,7 @@ export default function Options() {
               </li>
               <li className="flex items-start gap-4 lg:mt-2">
                 <div>
-                  <Dot />
+                  <Dot classname="mt-2" />
                 </div>
                 <div>
                   The three-card game Teen Patti is loved by South Asians.
@@ -61,7 +61,7 @@ export default function Options() {
               </li>
               <li className="flex items-start gap-4 lg:mt-2">
                 <div>
-                  <Dot />
+                  <Dot classname="mt-2" />
                 </div>
                 <div>
                   An entertaining variation of blackjack, pontoon introduces
@@ -70,7 +70,7 @@ export default function Options() {
               </li>
               <li className="flex items-start gap-4 lg:mt-2">
                 <div>
-                  <Dot />
+                  <Dot classname="mt-2" />
                 </div>
                 <div>
                   War of Bets is a one-of-a-kind card game that changes the way

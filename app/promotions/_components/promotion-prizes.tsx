@@ -6,9 +6,9 @@ import Dot from "@/components/dot";
 
 export default function Prizes() {
   return (
-    <section>
+    <section className="py-6 px-4 lg:pt-15">
       <div className="max-w-[1200px] mx-auto  text-white">
-        <motion.h2 className="text-center text-[30px] lg:text-4xl font-bold bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent mb-2 lg:mb-10">
+        <motion.h2 className="text-center text-[30px] lg:text-4xl font-bold text-[#FF5561] mb-2 lg:mb-10">
           Kinds of Prizes
         </motion.h2>
         <p className="mt-2">
@@ -27,7 +27,7 @@ export default function Prizes() {
           <ul className="w-full lg:w-3/4">
             <li className="flex items-center gap-4 mt-4">
               <div className="min-w-4 mb-auto mt-1">
-                <Dot />
+                <Dot classname="mt-2" />
               </div>
               <div>
                 <strong>Free Spins:</strong>
@@ -41,7 +41,7 @@ export default function Prizes() {
             </li>
             <li className="flex items-center gap-4 mt-4">
               <div className="min-w-4 mb-auto mt-1">
-                <Dot />
+                <Dot classname="mt-2" />
               </div>
               <div>
                 <strong>Bonus Credits: </strong>
@@ -54,7 +54,7 @@ export default function Prizes() {
             </li>
             <li className="flex items-center gap-4 mt-4">
               <div className="min-w-4 mb-auto mt-1">
-                <Dot />
+                <Dot classname="mt-2" />
               </div>
               <div>
                 <strong>Instant Cash Rewards: </strong>
@@ -67,7 +67,7 @@ export default function Prizes() {
             </li>
             <li className="flex items-center gap-4 mt-4">
               <div className="min-w-4 mb-auto mt-1">
-                <Dot />
+                <Dot classname="mt-2" />
               </div>
               <div>
                 <strong>Exclusive Discounts: </strong>
@@ -80,7 +80,7 @@ export default function Prizes() {
             </li>
             <li className="flex items-center gap-4 mt-4">
               <div className="min-w-4 mb-auto mt-1">
-                <Dot />
+                <Dot classname="mt-2" />
               </div>
               <div>
                 <strong>Mystery Prizes: </strong>
@@ -95,7 +95,7 @@ export default function Prizes() {
             </li>
             <li className="flex items-center gap-4 mt-4">
               <div className="min-w-4 mb-auto mt-1">
-                <Dot />
+                <Dot classname="mt-2" />
               </div>
               <div>
                 <strong>Trophy or Badges: </strong>

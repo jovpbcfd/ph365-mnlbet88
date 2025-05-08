@@ -7,9 +7,9 @@ import SicBo from "./live-casino-sic-bo";
 
 export default function Games() {
   return (
-    <section>
-      <div className="max-w-[1200px] mx-auto  text-white">
-        <h2 className="text-[30px] font-bold text-center my-2 lg:my-3">
+    <section className="bg-white lg:py-15">
+      <div className="max-w-[1200px] mx-auto text-black dark:text-white">
+        <h2 className="text-[30px] font-bold text-center py-2 text-[#FF5561] lg:py-3">
           Wide Selection of Live Casino Games
         </h2>
         <p className="mt-2">

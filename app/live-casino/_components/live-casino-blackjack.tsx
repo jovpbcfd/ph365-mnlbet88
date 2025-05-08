@@ -1,7 +1,7 @@
 export default function BlackJack() {
   return (
     <div>
-      <h3 className="font-bold text-[25px] bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent my-2 lg:my-3">
+      <h3 className="font-bold text-[25px] text-[#FF5561] my-2 lg:my-3">
         2. Black jack: The Card Game King
       </h3>
       <p>

@@ -5,13 +5,13 @@ import Dot from "@/components/dot";
 
 export default function ReasonsForDownloading() {
   return (
-    <section className="py-6 px-4">
-      <div className="max-w-[1200px] mx-auto  text-white">
+    <section className="py-6 px-4 bg-white lg:py-15">
+      <div className="max-w-[1200px] mx-auto text-black black:text-white">
         <motion.h2
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-center text-[30px] lg:text-4xl font-bold bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent mb-2 lg:mb-10"
+          className="text-center text-[30px] lg:text-4xl font-bold text-[#FF5561] mb-2 lg:mb-10"
         >
           Reasons for Downloading the ph365 App
         </motion.h2>
@@ -24,7 +24,7 @@ export default function ReasonsForDownloading() {
           <ul className="w-full lg:w-3/4">
             <li className="flex items-center gap-4 mt-4">
               <div className="min-w-4 mb-auto mt-1">
-                <Dot />
+                <Dot classname="mt-2" />
               </div>
               <div>
                 <p>
@@ -37,7 +37,7 @@ export default function ReasonsForDownloading() {
             </li>
             <li className="flex items-center gap-4 mt-4">
               <div className="min-w-4 mb-auto mt-1">
-                <Dot />
+                <Dot classname="mt-2" />
               </div>
               <div>
                 <p>
@@ -52,7 +52,7 @@ export default function ReasonsForDownloading() {
             </li>
             <li className="flex items-center gap-4 mt-4">
               <div className="min-w-4 mb-auto mt-1">
-                <Dot />
+                <Dot classname="mt-2" />
               </div>
               <div>
                 <p>
@@ -64,7 +64,7 @@ export default function ReasonsForDownloading() {
             </li>
             <li className="flex items-center gap-4 mt-4">
               <div className="min-w-4 mb-auto mt-1">
-                <Dot />
+                <Dot classname="mt-2" />
               </div>
               <div>
                 <p>
@@ -78,7 +78,7 @@ export default function ReasonsForDownloading() {
             </li>
             <li className="flex items-center gap-4 mt-4">
               <div className="min-w-4 mb-auto mt-1">
-                <Dot />
+                <Dot classname="mt-2" />
               </div>
               <div>
                 <p>
@@ -104,8 +104,8 @@ export default function ReasonsForDownloading() {
             </li>
           </ul>
           <div
-            className="w-full h-full lg:w-[400px] lg:h-[400px] border border-dashed border-white/20 
-          rounded-xl flex items-center justify-center text-sm text-white/60"
+            className="w-full h-full lg:w-[400px] lg:h-[400px] border border-dashed border-black/20 
+          rounded-xl flex items-center justify-center text-sm text-black/60"
           >
             Image 1080x1080
           </div>

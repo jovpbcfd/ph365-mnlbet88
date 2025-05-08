@@ -2,9 +2,9 @@ import { CheckCircle, AlertTriangle, Download, Smartphone } from "lucide-react";
 
 export default function CommonIssues() {
   return (
-    <section>
-      <div className="max-w-[1200px] mx-auto  text-white">
-        <h2 className="text-[30px] font-bold text-center my-2 lg:my-3">
+    <section className="py-6 px-4 bg-white lg:py-15">
+      <div className="max-w-[1200px] mx-auto  text-black dark:text-white">
+        <h2 className="text-[30px] font-bold text-center text-[#FF5561] my-2 lg:my-3">
           Common Issues with Installation Functions and Their Remedies
         </h2>
         <p className="mt-2 mb-5">
@@ -14,7 +14,7 @@ export default function CommonIssues() {
         </p>
 
         <div className="grid gap-8">
-          <div className="bg-[linear-gradient(90deg,#0c3782_0%,#2853ed_100%)] shadow-xl rounded-2xl p-6 flex items-start gap-4 border border-gray-100">
+          <div className="bg-[#100844] shadow-xl rounded-2xl p-6 flex items-start gap-4 border border-gray-100">
             <Download className="text-red-500 w-8 h-8 mt-1" />
             <div>
               <h2 className="text-2xl font-semibold mb-2 text-white">
@@ -31,10 +31,10 @@ export default function CommonIssues() {
             </div>
           </div>
 
-          <div className="bg-[linear-gradient(90deg,#0c3782_0%,#2853ed_100%)] shadow-xl rounded-2xl p-6 flex items-start gap-4 border border-gray-100">
+          <div className="bg-[#100844] shadow-xl rounded-2xl p-6 flex items-start gap-4 border border-gray-100">
             <AlertTriangle className="text-yellow-500 w-8 h-8 mt-1" />
             <div>
-              <h2 className="text-2xl font-semibold mb-2">
+              <h2 className="text-2xl font-semibold mb-2 text-white">
                 2. Installation Blocked
               </h2>
               <p className="text-white mb-1">
@@ -49,10 +49,10 @@ export default function CommonIssues() {
             </div>
           </div>
 
-          <div className="bg-[linear-gradient(90deg,#0c3782_0%,#2853ed_100%)] shadow-xl rounded-2xl p-6 flex items-start gap-4 border border-gray-100">
+          <div className="bg-[#100844] shadow-xl rounded-2xl p-6 flex items-start gap-4 border border-gray-100">
             <Smartphone className="text-purple-500 w-8 h-8 mt-1" />
             <div>
-              <h2 className="text-2xl font-semibold mb-2">
+              <h2 className="text-2xl font-semibold mb-2 text-white">
                 3. App Not Opening
               </h2>
               <p className="text-white mb-1">
@@ -66,10 +66,10 @@ export default function CommonIssues() {
             </div>
           </div>
 
-          <div className="bg-[linear-gradient(90deg,#0c3782_0%,#2853ed_100%)] shadow-xl rounded-2xl p-6 flex items-start gap-4 border border-gray-100">
+          <div className="bg-[#100844] shadow-xl rounded-2xl p-6 flex items-start gap-4 border border-gray-100">
             <CheckCircle className="text-green-500 w-8 h-8 mt-1" />
             <div>
-              <h2 className="text-2xl font-semibold mb-2">
+              <h2 className="text-2xl font-semibold mb-2 text-white">
                 4. iOS Trust Profile
               </h2>
               <p className="text-white mb-1">

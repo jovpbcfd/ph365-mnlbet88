@@ -9,7 +9,7 @@ import Welcome from "./_components/live-casino-welcome";
 export default function Page() {
   return (
     <>
-      <section>
+      <section className="bg-white">
         <div className="max-w-[1200px] mx-auto text-white">
           <Banner data={promotionBanner} />
         </div>

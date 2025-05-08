@@ -4,15 +4,15 @@ import { motion } from "framer-motion";
 
 export default function PlayEveryday() {
   return (
-    <section className="py-6 px-4">
-      <div className="max-w-[1200px] mx-auto  text-white">
+    <section className="py-6 px-4 lg:pb-15">
+      <div className="max-w-[1200px] mx-auto text-white">
         <div className="pb-10 flex flex-col lg:flex-row items-center gap-6">
           <div className="w-full lg:w-3/4">
             <motion.h2
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="text-center text-[30px] lg:text-4xl font-bold bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent mb-2 lg:mb-10"
+              className="text-center text-[30px] lg:text-4xl font-bold text-[#FF5561] mb-2 lg:mb-10"
             >
               Why should one play every day?
             </motion.h2>

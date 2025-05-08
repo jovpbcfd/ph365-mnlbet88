@@ -1,7 +1,7 @@
 export default function FanTan() {
   return (
     <div>
-      <h3 className="font-bold text-[25px] bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent my-2 lg:my-3">
+      <h3 className="font-bold text-[25px] text-[#FF5561] my-2 lg:my-3">
         6. Fan Tan: An Old Luck and Strategy Game
       </h3>
       <p className="mt-2">

@@ -4,13 +4,13 @@ import { motion } from "framer-motion";
 
 export default function Welcome() {
   return (
-    <section className="]">
+    <section className="lg:pt-15">
       <div className="max-w-[1200px] mx-auto py-10 text-white">
         <motion.h1
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-center text-[35px] lg:text-5xl font-bold bg-gradient-to-r from-[#FF5A7A] to-[#FF8FA1] bg-clip-text text-transparent mb-2 lg:mb-10"
+          className="text-center text-[35px] lg:text-5xl font-bold text-[#FF5561] mb-2 lg:mb-10"
         >
           A Complete Guide to ph365 Card Games: The Best Way to Play Online
         </motion.h1>

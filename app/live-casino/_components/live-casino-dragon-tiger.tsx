@@ -11,7 +11,7 @@ export default function DragonTiger() {
       className="flex flex-col lg:flex-row items-center gap-6"
     >
       <div className="w-full lg:w-3/4">
-        <h3 className="font-bold text-[25px] bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent my-2 lg:my-3">
+        <h3 className="font-bold text-[25px] text-[#FF5561] my-2 lg:my-3">
           5. Dragon Tiger: The easiest Casino Showdown
         </h3>
         <p className="mt-2">
@@ -66,8 +66,8 @@ export default function DragonTiger() {
         </div>
       </div>
       <div
-        className="w-full h-full lg:w-[400px] lg:h-[400px] border border-dashed border-white/20 
-          rounded-xl flex items-center justify-center text-sm text-white/60"
+        className="w-full h-full lg:w-[400px] lg:h-[400px] border border-dashed border-black/20 
+          rounded-xl flex items-center justify-center text-sm text-black/60"
       >
         Image 1080x1080
       </div>
