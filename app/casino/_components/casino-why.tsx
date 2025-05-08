@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function WhyShouldPick() {
   return (
-    <section className="py-6 px-4 bg-white lg:pt-12">
+    <section className="py-6 px-4 bg-white lg:pt-15">
       <div className="max-w-[1200px] mx-auto  text-black">
         <motion.h2
           initial={{ opacity: 0, y: 40 }}

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function Significance() {
   return (
-    <section className="py-6 px-4 lg:pb-14">
+    <section className="py-6 px-4 lg:pb-15">
       <div className="max-w-[1200px] mx-auto  text-white">
         <motion.div
           initial={{ opacity: 0, x: -30 }}

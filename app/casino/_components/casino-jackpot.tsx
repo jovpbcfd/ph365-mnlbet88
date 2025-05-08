@@ -6,7 +6,7 @@ import { blocks } from "@/data/casino-jackpot-games-block";
 
 export default function JackpotGames() {
   return (
-    <section className="py-6 px-4 bg-white lg:py-13">
+    <section className="py-6 px-4 bg-white lg:py-15">
       <div className="max-w-[1200px] mx-auto text-white relative">
         <motion.h2
           initial={{ opacity: 0, y: 40 }}
