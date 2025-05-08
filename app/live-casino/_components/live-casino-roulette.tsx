@@ -1,6 +1,6 @@
 export default function Roulette() {
   return (
-    <div>
+    <div className="pb-4 lg:pb-8">
       <h3 className="font-bold text-[25px] text-[#FF5561] my-2 lg:my-3">
         4. Roulette: The Classical Wheel of Fortune
       </h3>
@@ -12,7 +12,7 @@ export default function Roulette() {
         offer live Roulette sessions at ph365 alongside premium graphics and
         several game types imported from the casino hall.
       </p>
-      <h3 className="font-bold text-[25px] my-2 lg:my-3">
+      <h3 className="font-bold text-[20px] my-2 lg:my-3">
         Why should one play Roulette?
       </h3>
       <p className="mt-2">
@@ -22,7 +22,7 @@ export default function Roulette() {
         well as veteran gamers. Moreover, the spinning wheel offers a level of
         suspense that is just unparalleled.
       </p>
-      <h3 className="font-bold text-[25px] my-2 lg:my-3">
+      <h3 className="font-bold text-[20px] my-2 lg:my-3">
         Roulette&apos;s technique:
       </h3>
       <ul>

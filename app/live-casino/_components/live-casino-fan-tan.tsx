@@ -12,7 +12,7 @@ export default function FanTan() {
         while playing live dealers of Fan Tan and making bets.
       </p>
       <div>
-        <h3 className="font-bold text-[25px] my-2 lg:my-3">
+        <h3 className="font-bold text-[20px] my-2 lg:my-3">
           Why would one use Play Fan Tan?
         </h3>
         <ul>
@@ -35,7 +35,7 @@ export default function FanTan() {
         </ul>
       </div>
       <div>
-        <h3 className="font-bold text-[25px] my-2 lg:my-3">
+        <h3 className="font-bold text-[20px] my-2 lg:my-3">
           Play Fan Tan: How do you do it?
         </h3>
         <ul>

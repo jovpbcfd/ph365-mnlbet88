@@ -8,7 +8,7 @@ export default function Baccarat() {
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
-      className="flex flex-col lg:flex-row items-center gap-6"
+      className="flex flex-col lg:flex-row items-center gap-6 pb-4 lg:pb-8"
     >
       <div className="w-full lg:w-3/4">
         <h3 className="font-bold text-[25px] my-2 text-[#FF5561] lg:my-3">
@@ -23,7 +23,7 @@ export default function Baccarat() {
           on Player, Banker, or Tie makes every game fascinating and full of
           prospective successes.
         </p>
-        <h3 className="font-bold text-[25px] my-2 lg:my-3">
+        <h3 className="font-bold text-[20px] my-2 lg:my-3">
           Why play baccarat?
         </h3>
         <p className="mt-2">
@@ -34,7 +34,7 @@ export default function Baccarat() {
           expert gamblers since it offers lots of possibilities for wagers and
           great chances to win.
         </p>
-        <h3 className="font-bold text-[25px] my-2 lg:my-3">
+        <h3 className="font-bold text-[20px] my-2 lg:my-3">
           Playing baccarat: how should one approach it?
         </h3>
         <p className="mt-2">

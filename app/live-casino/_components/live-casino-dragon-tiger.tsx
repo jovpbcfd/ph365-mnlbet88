@@ -8,7 +8,7 @@ export default function DragonTiger() {
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
-      className="flex flex-col lg:flex-row items-center gap-6"
+      className="flex flex-col lg:flex-row items-center gap-6 pb-4 lg:pb-8"
     >
       <div className="w-full lg:w-3/4">
         <h3 className="font-bold text-[25px] text-[#FF5561] my-2 lg:my-3">
@@ -22,7 +22,7 @@ export default function DragonTiger() {
           gorgeous graphics, and live dragon tiger with dealers.
         </p>
         <div>
-          <h3 className="font-bold text-[25px] my-2 lg:my-3">
+          <h3 className="font-bold text-[20px] my-2 lg:my-3">
             Why do you play Dragon Tiger?
           </h3>
           <ul>
@@ -46,7 +46,7 @@ export default function DragonTiger() {
           </ul>
         </div>
         <div>
-          <h3 className="font-bold text-[25px] my-2 lg:my-3">
+          <h3 className="font-bold text-[20px] my-2 lg:my-3">
             How should one play Dragon Tiger?
           </h3>
           <ul>

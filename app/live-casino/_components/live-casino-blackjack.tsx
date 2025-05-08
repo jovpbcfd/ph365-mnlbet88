@@ -1,6 +1,6 @@
 export default function BlackJack() {
   return (
-    <div>
+    <div className="pb-4 lg:pb-8">
       <h3 className="font-bold text-[25px] text-[#FF5561] my-2 lg:my-3">
         2. Black jack: The Card Game King
       </h3>
@@ -12,7 +12,7 @@ export default function BlackJack() {
         played in your life, our tables will be vibrant and offer chances to
         make plenty of money.
       </p>
-      <h3 className="font-bold text-[25px] my-2 lg:my-3">
+      <h3 className="font-bold text-[20px] my-2 lg:my-3">
         Why would one play blackjack?
       </h3>
       <p className="mt-2">
@@ -23,7 +23,7 @@ export default function BlackJack() {
         provides tons of fun whether your preference is to stay riveted to every
         card given or try and defeat the dealer.
       </p>
-      <h3 className="font-bold text-[25px] my-2 lg:my-3">
+      <h3 className="font-bold text-[20px] my-2 lg:my-3">
         Blackjack Play: Techniques
       </h3>
       <p className="mt-2">
