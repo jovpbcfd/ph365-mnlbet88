@@ -57,7 +57,7 @@ export default function Guide() {
           <Timelines data={androidData} />
         </div>
         <div>
-          <p className="text-center">
+          <p className="text-center font-bold lg:text-[18px]">
             You are now completely equipped to investigate our large selection
             of games, bonuses, and special deals!
           </p>

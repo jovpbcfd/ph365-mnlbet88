@@ -4,7 +4,7 @@ export default function CommonIssues() {
   return (
     <section className="py-6 px-4 bg-white lg:py-15">
       <div className="max-w-[1200px] mx-auto  text-black dark:text-white">
-        <h2 className="text-[30px] font-bold text-center text-[#FF5561] my-2 lg:my-3">
+        <h2 className="text-[30px] font-bold text-center text-[#FF5561] mb-2 lg:mb-10 lg:text-4xl">
           Common Issues with Installation Functions and Their Remedies
         </h2>
         <p className="mt-2 mb-5">
@@ -88,7 +88,7 @@ export default function CommonIssues() {
           </div>
         </div>
 
-        <div className="text-center mt-10">
+        <div className="text-center mt-10 font-bold text-[18px]">
           Should you need further help, visit the Help Center or get in touch
           with our support team.
         </div>
