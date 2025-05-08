@@ -7,7 +7,7 @@ export default function CommonIssues() {
         <h2 className="text-[30px] font-bold text-center text-[#FF5561] mb-2 lg:mb-10 lg:text-4xl">
           Common Issues with Installation Functions and Their Remedies
         </h2>
-        <p className="mt-2 mb-5">
+        <p className="mt-2 mb-5 lg:mb-8">
           Although downloading and installing our programs is easy, here are
           some typical problems and answers to guarantee a trouble-free
           experience:

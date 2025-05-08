@@ -22,11 +22,6 @@ export default function Faq({ questions }: { questions: Faq[] }) {
   return (
     <section id="faq" className="max-w-[1230px] mx-auto text-white p-2 md:p-0">
       <div className="max-w-7xl mx-auto px-[10px] py-[16px]">
-        {/* <h2 className="font-[900] text-center text-lg md:text-xl lg:text-2xl">
-          {title}
-        </h2>
-        <p className="mb-2 text-justify md:my-4">{description}</p> */}
-
         <div className="md:px-24 md:my-10">
           {questions.map((faq, index) => (
             <div key={index} className="text-white my-4 bg-[#100844] ">
@@ -49,19 +44,19 @@ export default function Faq({ questions }: { questions: Faq[] }) {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     className={`ml-2 transform transition-transform duration-300 text-white ${
-                      openIndex === index ? "rotate-180" : "rotate-0"
+                      openIndex === index ? "rotate-0" : "rotate-180"
                     }`}
                     aria-hidden="true"
                   >
-                    <path d="m18 15-6-6-6 6" />
+                    <path d="m6 9 6 6 6-6" />
                   </svg>
                 </button>
               </h3>
               <div
                 id={`faq-content-${index}`}
                 role="region"
-                className={`transition-[max-height] ease-in-out duration-300 overflow-hidden px-4 ${
-                  openIndex === index ? "max-h-full" : "max-h-0"
+                className={`transition-all ease-in-out duration-300 leading-relaxed overflow-hidden px-4 ${
+                  openIndex === index ? "max-h-[300px] py-4" : "max-h-0 py-0"
                 }`}
                 aria-hidden={openIndex !== index}
               >
