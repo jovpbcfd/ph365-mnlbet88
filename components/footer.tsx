@@ -10,6 +10,7 @@ const menuItems = [
   { name: "SPORTS BOOK", href: "/sports-book" },
   { name: "LIVE CASINO", href: "/live-casino" },
   { name: "CARD GAME", href: "/card-game" },
+  { name: "BLOGS", href: "/blog" },
 ];
 
 export default function Footer() {

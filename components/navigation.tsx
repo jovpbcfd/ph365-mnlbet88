@@ -22,6 +22,7 @@ export default function Navigation({ className = "" }: NavigationProps) {
         { name: "SPORTBOOK", href: "/sports-book" },
         { name: "LIVE CASINO", href: "/live-casino" },
         { name: "CARD GAME", href: "/card-game" },
+        { name: "BLOGS", href: "/blog" },
       ].map((item, idx) => (
         <li key={idx} className="hover:text-[#ff5561] transition-colors">
           <Link
