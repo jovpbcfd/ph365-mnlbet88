@@ -37,11 +37,11 @@ export default function Slider() {
     Autoplay({ delay: 3000, stopOnInteraction: true })
   );
   return (
-    <Carousel plugins={[autoplay]} className="group py-2 lg:py-4">
+    <Carousel plugins={[autoplay]} className="group py-2 lg:py-0">
       <CarouselContent className="w-full h-[150px] md:[h-250px] lg:w-[1245px] lg:h-[300px]">
         {images.map((image, index) => (
           <CarouselItem key={index}>
-            <div className="aspect-square h-full w-full flex items-center justify-center border border-dashed border-dark/20 rounded-lg cursor-pointer text-dark">
+            <div className="aspect-square h-full w-full flex items-center justify-center rounded-lg cursor-pointer text-dark">
               <Image
                 src={image.link}
                 width={1245}

@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function SubBanner() {
   return (
-    <section className="bg-white pb-6 lg:pb-12 lg:pt-10">
-      <div className="max-w-[1200px] h-[194px] mx-auto flex items-center justify-center border border-dashed border-dark/20 rounded-md text-dark">
+    <section className="bg-white pb-6 lg:pb-8 lg:pt-8">
+      <div className="max-w-[1200px] h-full lg:h-[220px] mx-auto text-dark">
         <Image
           src="/img/home/offer/ph365-offers-promotion.webp"
           width={1200}
