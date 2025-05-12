@@ -30,3 +30,8 @@ export const cardGameBanner = [
     { img: '', description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.", cta: "Sign Up", link: "#"},
     { img: '', description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.", cta: "Sign Up", link: "#"},
 ]
+
+export const blogBanner = [
+    { img: '', description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.", cta: "Sign Up", link: "#"},
+    { img: '', description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.", cta: "Sign Up", link: "#"},
+]

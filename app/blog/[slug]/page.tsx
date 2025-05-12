@@ -4,6 +4,8 @@ import { getBlogBySlug } from "@/lib/get-blog";
 import BlogBody from "../_components/blog-body";
 import BlogOtherList from "../_components/other-post";
 import Promotion from "../_components/promotion-carousel";
+import Banner from "@/components/banner";
+import { blogBanner } from "@/data/banner-data";
 
 export async function generateMetadata({
   params,
@@ -50,27 +52,25 @@ export default async function Page({
   const { currentPost, otherBlogs } = blog?.data;
 
   return (
-    <div className="max-w-[1200px] mx-auto px-4 grid lg:grid-cols-12 gap-8">
-      <article className="lg:col-span-8 w-full">
-        <BlogBody data={currentPost} />
-      </article>
+    <div className="max-w-[1200px] mx-auto px-4">
+      <div className="grid lg:grid-cols-12 gap-8">
+        <article className="lg:col-span-8 w-full">
+          <BlogBody data={currentPost} />
+        </article>
 
-      <aside className="lg:col-span-4 w-full space-y-6">
-        {/* Optional promo banner */}
-        <div className="w-full mt-6">
-          {/* You can include an image or promo component here */}
-          {/* <img
-            src="/path/to/promo.jpg"
-            alt="Promo"
-            className="w-full rounded-md"
-          /> */}
-          <Promotion />
-        </div>
+        <aside className="lg:col-span-4 w-full space-y-6">
+          <div className="w-full mt-6">
+            <Promotion />
+          </div>
 
-        <div className="space-y-4">
-          <BlogOtherList otherPost={otherBlogs} />
-        </div>
-      </aside>
+          <div className="space-y-4">
+            <BlogOtherList otherPost={otherBlogs} />
+          </div>
+        </aside>
+      </div>
+      <div className="mt-2 lg:mt-10 lg:pb-15">
+        <Banner data={blogBanner} className="text-white" />
+      </div>
     </div>
   );
 }
