@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import Dot from "@/components/dot";
 
@@ -65,9 +66,14 @@ export default function BonusAndFeatures() {
           </motion.ul>
           <motion.div
             className="w-full h-full lg:w-[400px] lg:h-[400px]
-           border border-dashed border-white/20 rounded-xl flex items-center justify-center text-sm text-white/60"
+           "
           >
-            Image 1080x1080
+            <Image
+              src="/img/fish-hunter/NO.646_Bonus and Advanced Features.webp"
+              width={400}
+              height={400}
+              alt="How Fish Hunter Started It"
+            />
           </motion.div>
         </div>
 

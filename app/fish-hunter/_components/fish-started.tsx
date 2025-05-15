@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Started() {
   return (
@@ -53,11 +54,13 @@ export default function Started() {
               catching a big fish.
             </p>
           </div>
-          <div
-            className="w-full h-full lg:w-[400px] lg:h-[400px]
-           border border-dashed border-white/20 rounded-xl flex items-center justify-center text-sm text-white/60"
-          >
-            Image 1080x1080
+          <div className="w-full h-full lg:w-[400px] lg:h-[400px]">
+            <Image
+              src="/img/fish-hunter/NO.644_How Fish Hunter Started It.webp"
+              width={400}
+              height={400}
+              alt="How Fish Hunter Started It"
+            />
           </div>
         </motion.div>
       </div>

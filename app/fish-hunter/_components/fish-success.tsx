@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Success() {
   return (
@@ -58,11 +59,13 @@ export default function Success() {
               tastes the best.
             </p>
           </div>
-          <div
-            className="w-full h-full lg:w-[300px] lg:h-[300px]
-           border border-dashed border-black/20 rounded-xl flex items-center justify-center text-sm text-black/60"
-          >
-            Image 1080x1080
+          <div className="w-full h-full lg:w-[300px] lg:h-[300px]">
+            <Image
+              src="/img/fish-hunter/NO.652_Ways yo increase your Fishing Success.webp"
+              width={300}
+              height={300}
+              alt="Ways yo increase your Fishing Success"
+            />
           </div>
         </motion.div>
       </div>
