@@ -1,6 +1,6 @@
 "use client";
 
-// import Image from "next/image";
+import Image from "next/image";
 import Dot from "@/components/dot";
 import { motion } from "framer-motion";
 import { categories } from "@/data/categories";
@@ -28,15 +28,13 @@ export default function Categories() {
               transition={{ delay: i * 0.1, duration: 0.5 }}
               className="flex flex-col lg:flex-row items-center gap-6 bg-[#100844] border border-[#100844] p-6 rounded-xl hover:shadow-lg hover:shadow-cyan-500/10 transition-shadow"
             >
-              {/* <Image
-                src={cat.image}
-                alt={cat.title}
-                width={300}
-                height={300}
-                className="rounded-xl object-cover shadow-md"
-              /> */}
-              <div className="w-full h-full flex items-center justify-center border border-dashed border-white/20 rounded-md text-white lg:w-[300px] lg:h-[300px]">
-                Image 1080x1080
+              <div className="w-full h-full text-white lg:w-[300px] lg:h-[300px]">
+                <Image
+                  src={cat.image}
+                  width={300}
+                  height={300}
+                  alt={cat.title}
+                />
               </div>
               <div className="flex-1 space-y-2">
                 <div className="flex items-center gap-3">
