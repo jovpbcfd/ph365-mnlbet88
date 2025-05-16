@@ -1,5 +1,5 @@
 import Banner from "@/components/banner";
-import { promotionBanner } from "@/data/banner-data";
+import { liveCasinoBanner } from "@/data/banner-data";
 import JoinNow from "./_components/live-casino-join";
 import RealCasino from "./_components/live-casino-real";
 import Games from "./_components/live-casino-games";
@@ -11,7 +11,7 @@ export default function Page() {
     <>
       <section className="bg-white">
         <div className="max-w-[1200px] mx-auto text-white">
-          <Banner data={promotionBanner} />
+          <Banner data={liveCasinoBanner} />
         </div>
       </section>
       <Welcome />

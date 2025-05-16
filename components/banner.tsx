@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 type BannerData = {
   img: string;
@@ -22,8 +23,13 @@ export default function Banner({
             key={index}
             className={`${className} rounded-2xl p-6 border border-dark/10 shadow-xl flex flex-col justify-between h-full`}
           >
-            <div className="w-full h-[200px] flex items-center justify-center rounded-xl border border-dashed border-dark/20 text-black dark:text-white text-sm">
-              Image 600x200
+            <div className="w-full h-full">
+              <Image
+                src={item.img}
+                width={1140}
+                height={200}
+                alt={item.description}
+              />
             </div>
 
             <p className="text-inherit font-semibold mt-4 text-base dark:text-white md:text-lg">
