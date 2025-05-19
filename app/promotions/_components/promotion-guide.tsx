@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import Dot from "@/components/dot";
 
@@ -77,10 +78,15 @@ export default function Guide() {
             </li>
           </ul>
           <div
-            className="w-full h-full lg:w-[400px] lg:h-[400px] border border-dashed border-black/20 
+            className="w-full h-full lg:w-[400px] lg:h-[400px]
           rounded-xl flex items-center justify-center text-sm text-black/60"
           >
-            Image 1080x1080
+            <Image
+              src="/img/promotions/Our Promotions The Methodical Guide.webp"
+              width={400}
+              height={400}
+              alt="Our Promotions The Methodical Guide"
+            />
           </div>
         </div>
       </div>

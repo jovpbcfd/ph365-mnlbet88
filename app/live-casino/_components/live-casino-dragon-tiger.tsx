@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 export default function DragonTiger() {
@@ -66,10 +66,15 @@ export default function DragonTiger() {
         </div>
       </div>
       <div
-        className="w-full h-full lg:w-[400px] lg:h-[400px] border border-dashed border-black/20 
-          rounded-xl flex items-center justify-center text-sm text-black/60"
+        className="w-full h-full lg:w-[400px] lg:h-full 
+          rounded-xs flex items-center justify-center text-sm text-black/60"
       >
-        Image 1080x1080
+        <Image
+          src="/img/live-casino/5. Dragon Tiger- The easiest Casino Showdown 1080x1080.webp"
+          width={400}
+          height={400}
+          alt="Dragon Tiger- The easiest Casino Showdown"
+        />
       </div>
     </motion.div>
   );

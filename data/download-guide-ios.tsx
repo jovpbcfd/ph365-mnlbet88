@@ -1,4 +1,4 @@
-// import Image from "next/image";
+import Image from "next/image";
 
 export const data = [
   {
@@ -10,8 +10,13 @@ export const data = [
           official ph365 Download Page. The most recent version of the ph365 iOS
           app for 2025 is on this page.
         </p>
-        <div className="aspect-square w-full h-[300px] mx-auto flex items-center justify-center border border-dashed rounded-md">
-          Image 1400x600
+        <div className="aspect-square w-full h-[150px] lg:h-[285px] mx-auto lg:border-3 lg:border-white/80 overflow-hidden lg:shadow-lg rounded-xs">
+          <Image
+            src="/img/download/ios/Step 01 Visit the ph365 Download Page For iPhoneiOS users.webp"
+            width={700}
+            height={300}
+            alt="Visit the ph365 Download Page For iPhoneiOS users"
+          />
         </div>
       </>
     ),
@@ -25,8 +30,13 @@ export const data = [
           the most recent iOS APK file. The 2025 edition has additional
           features, improved visuals, and quicker speed.
         </p>
-        <div className="aspect-square w-full h-[300px] mx-auto flex items-center justify-center border border-dashed rounded-md">
-          Image 1400x600
+        <div className="aspect-square w-full h-[150px] lg:h-[285px] mx-auto lg:border-3 lg:border-white/80 overflow-hidden lg:shadow-lg rounded-xs">
+          <Image
+            src="/img/download/ios/Step 02 Download the iOS app For iPhoneiOS users.webp"
+            width={700}
+            height={300}
+            alt="Download the iOS app For iPhoneiOS users"
+          />
         </div>
       </>
     ),
@@ -53,8 +63,13 @@ export const data = [
           This will allow your iPhone to run and install non-App Store
           applications.
         </p>
-        <div className="aspect-square w-full h-[300px] mx-auto flex items-center justify-center border border-dashed rounded-md">
-          Image 1400x600
+        <div className="aspect-square w-full h-[150px] lg:h-[285px] mx-auto lg:border-3 lg:border-white/80 overflow-hidden lg:shadow-lg rounded-xs">
+          <Image
+            src="/img/download/ios/Step 03 App Installation For iPhoneiOS users.webp"
+            width={700}
+            height={300}
+            alt="App Installation For iPhoneiOS users"
+          />
         </div>
       </>
     ),
@@ -71,8 +86,13 @@ export const data = [
         <p className="pb-2">
           Play safe and seamless games straight from your iPhone.
         </p>
-        <div className="aspect-square w-full h-[300px] mx-auto flex items-center justify-center border border-dashed rounded-md">
-          Image 1400x600
+        <div className="aspect-square w-full h-[150px] lg:h-[285px] mx-auto lg:border-3 lg:border-white/80 overflow-hidden lg:shadow-lg rounded-xs">
+          <Image
+            src="/img/download/ios/Step 04 Launch the app For iPhoneiOS users.webp"
+            width={700}
+            height={300}
+            alt="Launch the app For iPhoneiOS users"
+          />
         </div>
       </>
     ),

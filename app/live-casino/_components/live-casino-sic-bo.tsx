@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function SicBo() {
   return (
@@ -73,10 +74,15 @@ export default function SicBo() {
         </div>
       </div>
       <div
-        className="w-full h-full lg:w-[400px] lg:h-[400px] border border-dashed border-black/20 
+        className="w-full h-full lg:w-[400px] lg:h-full 
           rounded-xl flex items-center justify-center text-sm text-black/60"
       >
-        Image 1080 x 1080
+        <Image
+          src="/img/live-casino/3. Sic Bo- the Chance Ultimate Dice Game 1080x10802.webp"
+          width={400}
+          height={400}
+          alt="Sic Bo- the Chance Ultimate Dice Game"
+        />
       </div>
     </motion.div>
   );

@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Excitement() {
   return (
@@ -46,10 +47,15 @@ export default function Excitement() {
             </p>
           </div>
           <div
-            className="w-full h-full lg:w-[400px] lg:h-[400px] border border-dashed border-white/20 
-          rounded-xl flex items-center justify-center text-sm text-white/60"
+            className="w-full h-full lg:w-[400px] lg:h-full 
+          rounded-xs flex items-center justify-center text-sm text-white/60 lg:border-3 lg:border-white/80 overflow-hidden lg:shadow-lg"
           >
-            Image 1080x1080
+            <Image
+              src="/img/live-casino/Experience Ph365 Live Casino to Reach New Peak of Excitement 1080X1080.webp"
+              width={400}
+              height={400}
+              alt="Experience Ph365 Live Casino to Reach New Peak of Excitement"
+            />
           </div>
         </motion.div>
       </div>

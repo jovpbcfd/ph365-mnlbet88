@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 export default function CardGameOnline() {
@@ -46,10 +47,15 @@ export default function CardGameOnline() {
             </p>
           </div>
           <div
-            className="w-full h-full lg:w-[300px] lg:h-[300px] border border-dashed border-black/20 
+            className="w-full h-full lg:w-[300px] lg:h-full border 
           rounded-xl flex items-center justify-center text-sm text-black/60"
           >
-            Image 1080x1080
+            <Image
+              src="/img/card-game/Play card games online.webp"
+              width={400}
+              height={400}
+              alt="Review of ph365 Card Games Lots of Options"
+            />
           </div>
         </div>
       </div>

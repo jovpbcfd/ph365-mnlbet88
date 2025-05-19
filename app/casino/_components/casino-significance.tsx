@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-// import Image from "next/image";
+import Image from "next/image";
 
 export default function Significance() {
   return (
@@ -61,15 +61,14 @@ export default function Significance() {
                 generating positive returns.
               </p>
             </div>
-            <div className="w-full h-full lg:w-[400px] lg:h-[450px] border border-dashed border-white/20 rounded-xl flex items-center justify-center text-sm text-white/60">
-              Image 1080x1500
-              {/* <Image
-            src={rtpImage}
-            alt="RTP Information Visual"
-            width={400}
-            height={300}
-            className="rounded-xl border border-white/20"
-          /> */}
+            <div className="w-full h-full lg:w-[400px] lg:h-[450px]  rounded-xl flex items-center justify-center text-sm text-white/60">
+              <Image
+                src="/img/casino/Knowing RTP—Return to Player—and Its Significance 1080X1500.webp"
+                alt="nowing RTP—Return to Player—and Its Significance"
+                width={400}
+                height={300}
+                className="rounded-xl "
+              />
             </div>
           </div>
         </motion.div>

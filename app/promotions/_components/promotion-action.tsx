@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 export default function CommonAction() {
@@ -67,10 +68,15 @@ export default function CommonAction() {
             </li>
           </ul>
           <div
-            className="w-full h-full lg:w-[400px] lg:h-[400px] border border-dashed border-black/20 
+            className="w-full h-full lg:w-[400px] lg:h-[400px]
           rounded-xl flex items-center justify-center text-sm text-black/60"
           >
-            Image 1080x1080
+            <Image
+              src="/img/promotions/Common Issues and Their Remedial Action.webp"
+              width={400}
+              height={400}
+              alt="Common Issues and Their Remedial Action"
+            />
           </div>
         </motion.div>
       </div>

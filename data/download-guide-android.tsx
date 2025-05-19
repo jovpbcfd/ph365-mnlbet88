@@ -1,4 +1,4 @@
-// import Image from "next/image";
+import Image from "next/image";
 
 export const data = [
   {
@@ -10,8 +10,13 @@ export const data = [
           browser on your Android device. The Android APK's most recent 2025
           version is on this page.
         </p>
-        <div className="aspect-square w-full h-[300px] mx-auto flex items-center justify-center border border-dashed rounded-md">
-          Image 1400x600
+        <div className="aspect-square w-full h-[150px] lg:h-[285px] mx-auto lg:border-3 lg:border-white/80 overflow-hidden lg:shadow-lg rounded-xs">
+          <Image
+            src="/img/download/android/Step 01 Visit the ph365 Download Page For Android Users.webp"
+            width={700}
+            height={300}
+            alt="Visit the ph365 Download Page For Android Users"
+          />
         </div>
       </>
     ),
@@ -25,8 +30,13 @@ export const data = [
           downloading the latest APK version of the program, modified for
           enhanced speed and functionality.
         </p>
-        <div className="aspect-square w-full h-[300px] mx-auto flex items-center justify-center border border-dashed rounded-md">
-          Image 1400x600
+        <div className="aspect-square w-full h-[150px] lg:h-[285px] mx-auto lg:border-3 lg:border-white/80 overflow-hidden lg:shadow-lg rounded-xs">
+          <Image
+            src="/img/download/android/Step 02 Get the Android App For Android Users.webp"
+            width={700}
+            height={300}
+            alt="Get the Android App For Android Users"
+          />
         </div>
       </>
     ),
@@ -50,8 +60,13 @@ export const data = [
           This will allow your iPhone to run and install non-App Store
           applications.
         </p>
-        <div className="aspect-square w-full h-[300px] mx-auto flex items-center justify-center border border-dashed rounded-md">
-          Image 1400x600
+        <div className="aspect-square w-full h-[150px] lg:h-[285px] mx-auto lg:border-3 lg:border-white/80 overflow-hidden lg:shadow-lg rounded-xs">
+          <Image
+            src="/img/download/android/Step 03 Allow Unknown Sources For Android Users.webp"
+            width={700}
+            height={300}
+            alt="Allow Unknown Sources For Android Users"
+          />
         </div>
       </>
     ),
@@ -73,8 +88,13 @@ export const data = [
           the "Install Unknown Apps" option once the program is installed to
           maintain your phone security.
         </p>
-        <div className="aspect-square w-full h-[300px] mx-auto flex items-center justify-center border border-dashed rounded-md">
-          Image 1400x600
+        <div className="aspect-square w-full h-[150px] lg:h-[285px] mx-auto lg:border-3 lg:border-white/80 overflow-hidden lg:shadow-lg rounded-xs">
+          <Image
+            src="/img/download/android/Step 04 Install the app For Android Users.webp"
+            width={700}
+            height={300}
+            alt="Install the app For Android Users"
+          />
         </div>
       </>
     ),
@@ -91,8 +111,13 @@ export const data = [
           access it. If you're only joining, log in using your account or set up
           a new one.
         </p>
-        <div className="aspect-square w-full h-[300px] mx-auto flex items-center justify-center border border-dashed rounded-md">
-          Image 1400x600
+        <div className="aspect-square w-full h-[150px] lg:h-[285px] mx-auto lg:border-3 lg:border-white/80 overflow-hidden lg:shadow-lg rounded-xs">
+          <Image
+            src="/img/download/android/Step 05 Open the app For Android Users.webp"
+            width={700}
+            height={300}
+            alt="Open the app For Android Users"
+          />
         </div>
       </>
     ),

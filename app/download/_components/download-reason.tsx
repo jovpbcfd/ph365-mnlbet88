@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import Dot from "@/components/dot";
 
@@ -104,10 +105,15 @@ export default function ReasonsForDownloading() {
             </li>
           </ul>
           <div
-            className="w-full h-full lg:w-[400px] lg:h-[400px] border border-dashed border-black/20 
+            className="w-full h-full lg:w-[400px] lg:h-full 
           rounded-xl flex items-center justify-center text-sm text-black/60"
           >
-            Image 1080x1080
+            <Image
+              src="/img/download/NO. 671_Reasons for Downloading the ph365 App.webp"
+              width={400}
+              height={400}
+              alt="Reasons for Downloading the ph365 App"
+            />
           </div>
         </div>
         <div>

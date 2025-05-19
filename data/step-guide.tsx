@@ -1,4 +1,4 @@
-// import Image from "next/image";
+import Image from "next/image";
 
 export const data = [
   {
@@ -11,8 +11,13 @@ export const data = [
           " Register" button. Starting the registration process, click this
           button.
         </p>
-        <div className="aspect-square w-full h-[300px] mx-auto flex items-center justify-center border border-dashed border-white/20 rounded-md">
-          Image 1400x600
+        <div className="aspect-square w-full h-[150px] lg:h-[285px] mx-auto lg:border-3 lg:border-white/80 overflow-hidden lg:shadow-lg rounded-xs">
+          <Image
+            src="/img/home/Step 01 Visit the Official ph365 Website.webp"
+            width={700}
+            height={300}
+            alt="Visit the Official ph365 Website"
+          />
         </div>
       </>
     ),
@@ -29,8 +34,13 @@ export const data = [
           registration process. Once you have finished the required fields,
           confirm your data to be sure it is accurate.
         </p>
-        <div className="aspect-square w-full h-[300px] mx-auto flex items-center justify-center border border-dashed border-white/20 rounded-md">
-          Image 1400x600
+        <div className="aspect-square w-full h-[150px] lg:h-[285px] mx-auto lg:border-3 lg:border-white/80 overflow-hidden lg:shadow-lg rounded-xs">
+          <Image
+            src="/img/home/Step 02 Finish Your Registration Details.webp"
+            width={700}
+            height={300}
+            alt="Finish Your Registration Details"
+          />
         </div>
       </>
     ),
@@ -48,8 +58,13 @@ export const data = [
           of games. Every player should start their road with us at ph365
           feeling appreciated and guided.
         </p>
-        <div className="aspect-square w-full h-[300px] mx-auto flex items-center justify-center border border-dashed border-white/20 rounded-md">
-          Image 1400x600
+        <div className="aspect-square w-full h-[150px] lg:h-[285px] mx-auto lg:border-3 lg:border-white/80 overflow-hidden lg:shadow-lg rounded-xs">
+          <Image
+            src="/img/home/Step 03 Claim Your Welcome Bonus.webp"
+            width={700}
+            height={300}
+            alt="Claim Your Welcome Bonus"
+          />
         </div>
       </>
     ),
@@ -66,8 +81,13 @@ export const data = [
           play—big gains or just enjoyment—ph365 offers the perfect environment
           for all types of players.
         </p>
-        <div className="aspect-square w-full h-[300px] mx-auto flex items-center justify-center border border-dashed border-white/20 rounded-md">
-          Image 1400x600
+        <div className="aspect-square w-full h-[150px] lg:h-[285px] mx-auto lg:border-3 lg:border-white/80 overflow-hidden lg:shadow-lg rounded-xs">
+          <Image
+            src="/img/home/Step 04 Get Straight on Enjoying Your Chosen Games.webp"
+            width={700}
+            height={300}
+            alt="Get Straight on Enjoying Your Chosen Games"
+          />
         </div>
       </>
     ),

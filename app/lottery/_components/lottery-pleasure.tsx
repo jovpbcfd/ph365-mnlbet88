@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function LotteryPleasure() {
   return (
@@ -44,10 +45,15 @@ export default function LotteryPleasure() {
             </p>
           </div>
           <div
-            className="w-full h-full lg:w-[400px] lg:h-[400px] border border-dashed border-white/20 
+            className="w-full h-full lg:w-[400px] lg:h-[400px] 
           rounded-xl flex items-center justify-center text-sm text-white/60"
           >
-            Image 1080x1080
+            <Image
+              src="/img/lottery/Lottery Pleasure.webp"
+              width={400}
+              height={400}
+              alt="Lottery Pleasure"
+            />
           </div>
         </motion.div>
       </div>

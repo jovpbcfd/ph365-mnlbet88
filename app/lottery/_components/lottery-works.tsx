@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function HowItWorks() {
   return (
@@ -37,10 +38,15 @@ export default function HowItWorks() {
             </p>
           </div>
           <div
-            className="w-full h-full lg:w-[400px] lg:h-[400px] border border-dashed border-black/20 
+            className="w-full h-full lg:w-[400px] lg:h-[400px] 
           rounded-xl flex items-center justify-center text-sm text-black/60"
           >
-            Image 1080x1080
+            <Image
+              src="/img/lottery/How the Lottery Works.webp"
+              width={400}
+              height={400}
+              alt="How the Lottery Works"
+            />
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 "use client";
 
-// import Image from "next/image";
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 export default function Ways() {
@@ -51,17 +51,16 @@ export default function Ways() {
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
-            className="w-full lg:w-[350px] h-[350px] flex items-center justify-center border border-dashed border-dark/20 rounded-md text-center text-dark"
+            className="w-full lg:w-[350px] h-[350px] flex items-center justify-center rounded-md text-center text-dark"
           >
             {/* h-auto */}
-            {/* <Image
-              src="/images/payments.jpg"
-              alt="Ways to Pay"
+            <Image
+              src="/img/home/Many Ways to Pay Simple Transactions for Outstanding Gaming.webp"
+              alt="Many Ways to Pay Simple Transactions for Outstanding Gaming"
               width={350}
               height={350}
               className="rounded-xl object-cover shadow-lg"
-            /> */}
-            Image 1080x1080
+            />
           </motion.div>
         </div>
       </div>

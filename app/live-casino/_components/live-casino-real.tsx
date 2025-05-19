@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 export default function RealCasino() {
@@ -87,10 +88,15 @@ export default function RealCasino() {
             </div>
           </div>
           <div
-            className="w-full h-full lg:w-[400px] lg:h-[400px] border border-dashed border-white/20 
-          rounded-xl flex items-center justify-center text-sm text-white/60"
+            className="w-full h-full lg:w-[400px] lg:h-full 
+          rounded-xs flex items-center justify-center text-sm text-white/60 lg:border-3 lg:border-white/80 overflow-hidden lg:shadow-lg"
           >
-            Image 1080x1080
+            <Image
+              src="/img/live-casino/Why ph365 for Live Casino- 1080x1080.webp"
+              width={400}
+              height={400}
+              alt="Dragon Tiger- The easiest Casino Showdown"
+            />
           </div>
         </div>
       </div>

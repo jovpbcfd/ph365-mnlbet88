@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 export default function PlayerExperience() {
@@ -20,8 +21,13 @@ export default function PlayerExperience() {
           transition={{ duration: 0.6 }}
           className="flex flex-col lg:flex-row items-center gap-6"
         >
-          <div className="w-full h-full lg:w-[400px] lg:h-[400px] border border-dashed border-white/20 rounded-xl flex items-center justify-center text-sm text-white/60">
-            Image 1080x1080
+          <div className="w-full h-full lg:w-[400px] lg:h-[400px] rounded-xl flex items-center justify-center text-sm text-white/60">
+            <Image
+              src="/img/casino/1 1080X1080.webp"
+              width={400}
+              height={400}
+              alt="What role online betting sites play in the player experience"
+            />
           </div>
           <div className="w-full lg:w-3/4">
             <p className="leading-relaxed mt-2">
@@ -88,8 +94,13 @@ export default function PlayerExperience() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="flex flex-col lg:flex-row-reverse items-center gap-6"
         >
-          <div className="w-full h-full lg:w-[400px] lg:h-[400px] border border-dashed border-white/20 rounded-xl flex items-center justify-center text-sm text-white/60">
-            Image 1080x1080
+          <div className="w-full h-full lg:w-[400px] lg:h-[400px] rounded-xl flex items-center justify-center text-sm text-white/60">
+            <Image
+              src="/img/casino/2 1080X1080.webp"
+              width={400}
+              height={400}
+              alt="What role online betting sites play in the player experience"
+            />
           </div>
           <div className="w-full lg:w-3/4">
             <p className="leading-relaxed">

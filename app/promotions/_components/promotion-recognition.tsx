@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Recognition() {
   return (
@@ -43,10 +44,15 @@ export default function Recognition() {
             </p>
           </div>
           <div
-            className="w-full h-full lg:w-[400px] lg:h-[400px] border border-dashed border-white/20 
-          rounded-xl flex items-center justify-center text-sm text-white/60"
+            className="w-full h-full lg:w-[400px] lg:h-full 
+          rounded-xs flex items-center justify-center text-sm text-white/60 overflow-hidden lg:border-3 lg:border-white/80 lg:shadow-lg"
           >
-            Image 1080x1080
+            <Image
+              src="/img/promotions/Why Promotions Count Beyond Only Recognition.webp"
+              width={400}
+              height={400}
+              alt="Why Promotions Count Beyond Only Recognition"
+            />
           </div>
         </motion.div>
       </div>

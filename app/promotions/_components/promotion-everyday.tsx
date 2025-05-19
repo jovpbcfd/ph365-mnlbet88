@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function PlayEveryday() {
   return (
@@ -33,10 +34,15 @@ export default function PlayEveryday() {
             </p>
           </div>
           <div
-            className="w-full h-full lg:w-[400px] lg:h-[400px] border border-dashed border-white/20 
-          rounded-xl flex items-center justify-center text-sm text-white/60"
+            className="w-full h-full lg:w-[400px] lg:h-full 
+          rounded-xs flex items-center justify-center text-sm text-white/60 overflow-hidden lg:border-3 lg:border-white/80 lg:shadow-lg"
           >
-            Image 1080x1080
+            <Image
+              src="/img/promotions/Why should one play every day.webp"
+              width={356}
+              height={356}
+              alt="Why should one play every day"
+            />
           </div>
         </div>
       </div>

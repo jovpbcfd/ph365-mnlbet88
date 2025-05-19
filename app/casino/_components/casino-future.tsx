@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Future() {
   return (
@@ -57,9 +58,14 @@ export default function Future() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="w-full h-full lg:w-[400px] lg:h-[400px] border border-dashed border-black/20 rounded-xl flex items-center justify-center text-sm text-black/60"
+            className="w-full h-full lg:w-[400px] lg:h-[400px] rounded-xl flex items-center justify-center text-sm text-black/60"
           >
-            Image 1080x1080
+            <Image
+              src="/img/casino/The future of online casinos in the Philippines 1080X1080 copy.webp"
+              width={400}
+              height={400}
+              alt="The future of online casinos in the Philippines"
+            />
           </motion.div>
         </div>
         <motion.div

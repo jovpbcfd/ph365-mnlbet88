@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import Dot from "@/components/dot";
 
@@ -89,10 +90,15 @@ export default function Options() {
             </div>
           </div>
           <div
-            className="w-full h-full lg:w-[300px] lg:h-[300px] border border-dashed border-white/20 
-          rounded-xl flex items-center justify-center text-sm text-white/60"
+            className="w-full h-full lg:w-[300px] lg:h-full 
+          rounded-xs flex items-center justify-center text-sm text-white/60 lg:border-3 lg:border-white/80 overflow-hidden lg:shadow-lg"
           >
-            Image 1080x1080
+            <Image
+              src="/img/card-game/Review of ph365 Card Games Lots of Options.webp"
+              width={400}
+              height={400}
+              alt="Review of ph365 Card Games Lots of Options"
+            />
           </div>
         </div>
       </div>
