@@ -39,27 +39,43 @@ export default function Prizes() {
           {[
             {
               title: "Free Spins",
-              text: "Who wouldn’t want extra opportunities to win? Free spins let you keep the enjoyment running without having to spend your credits. In other games or activities, they might also unlock larger prizes.",
+              text: `Who wouldn&apos;t want extra opportunities to win? Free spins
+                   let you keep the enjoyment running without having to spend
+                   your credits. In other games or activities, they might also
+                  unlock larger prizes.`,
             },
             {
               title: "Exclusive Discounts",
-              text: "If you enjoy shopping or looking for special offers, some spins could provide you vouchers or discounts for a range of goods or services.",
+              text: `If you enjoy shopping or looking for special offers, some
+                   spins could provide you vouchers or discounts for a range of
+                   goods or services.`,
             },
             {
               title: "Bonus Credits",
-              text: "Bonus credits allow one to purchase goods, place bets, or play additional games. Since they improve the whole game experience, these are perhaps the most sought-after awards.",
+              text: `Bonus credits allow one to purchase goods, place bets, or play
+                  additional games. Since they improve the whole game
+                   experience, these are perhaps the most sought-after awards.`,
             },
             {
               title: "Mystery Prizes",
-              text: "One cannot emphasize the excitement of the mysterious prize. The game gets much more exciting when the wheel presents an unexpected surprise not mentioned.",
+              text: `One cannot emphasize the excitement of the mysterious prize.
+                  The game gets much more exciting when the wheel presents an
+                   unexpected surprise not mentioned. Could it be a special
+                   benefit nobody else has or a limited-time offer? You&apos;ll
+                   find out only when you spin!`,
             },
             {
               title: "Instant Cash Rewards",
-              text: "Occasionally the wheel provides real, cold cash straight to your account. For those who wish for quick returns from their fortune, this is the highest award.",
+              text: `Occasionally the wheel provides real, cold cash straight to
+                  your account. For those who wish for quick returns from their
+                   fortune, this is the highest award.`,
             },
             {
               title: "Trophy or Badges",
-              text: "Should a player value success, you can find yourself in a position eligible for a trophy or badge. This enhances your profile by highlighting your game-wide participation and benchmarks.",
+              text: `Should a player value success, you can find yourself in a
+                   position eligible for a trophy or badge. This enhances your
+                   profile by highlighting your game-wide participation and
+                   benchmarks.`,
             },
           ].map((item, i) => (
             <motion.div
