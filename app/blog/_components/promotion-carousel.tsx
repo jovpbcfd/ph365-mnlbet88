@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 import Autoplay from "embla-carousel-autoplay";
 import {
@@ -11,9 +12,9 @@ import {
 } from "@/components/ui/carousel";
 
 const images = [
-  { link: "Image 01" },
-  { link: "Image 02" },
-  { link: "Image 03" },
+  { link: "/img/investment.webp" },
+  { link: "/img/download.webp" },
+  { link: "/img/bonus.webp" },
 ];
 
 export default function Promotion() {
@@ -22,7 +23,7 @@ export default function Promotion() {
   );
   return (
     <>
-      <div className="relative w-full max-w-xs mx-auto group cursor-pointer">
+      <div className="relative w-full max-w-xs mx-auto group cursor-pointer border border-white/20 p-2">
         <Carousel
           plugins={[autoplay]}
           opts={{
@@ -33,10 +34,15 @@ export default function Promotion() {
           className="w-full h-[200px] rounded-md"
         >
           <CarouselContent className="-mt-1 h-[200px]">
-            {images.map((_, index) => (
+            {images.map((item, index) => (
               <CarouselItem key={index} className="pt-1 basis-full">
-                <div className="p-1 aspect-square h-[200px] w-full flex items-center justify-center border border-dashed border-white/20 text-white">
-                  {_.link}
+                <div className="p-1 aspect-square h-[200px] w-full flex items-center justify-center text-white">
+                  <Image
+                    src={item.link}
+                    width={320}
+                    height={200}
+                    alt="Banner"
+                  />
                 </div>
               </CarouselItem>
             ))}

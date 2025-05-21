@@ -45,8 +45,8 @@ export default function LotteryPleasure() {
             </p>
           </div>
           <div
-            className="w-full h-full lg:w-[400px] lg:h-[400px] 
-          rounded-xl flex items-center justify-center text-sm text-white/60"
+            className="w-full h-full lg:w-[400px] lg:h-full 
+          rounded-xs flex items-center justify-center text-sm text-white/60 lg:border-3 lg:border-white/80 overflow-hidden lg:shadow-lg"
           >
             <Image
               src="/img/lottery/Lottery Pleasure.webp"

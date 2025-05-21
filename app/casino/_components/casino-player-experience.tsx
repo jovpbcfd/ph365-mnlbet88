@@ -23,7 +23,7 @@ export default function PlayerExperience() {
         >
           <div className="w-full h-full lg:w-[400px] lg:h-[400px] rounded-xl flex items-center justify-center text-sm text-white/60">
             <Image
-              src="/img/casino/1 1080X1080.webp"
+              src="/img/casino/1-what-role.webp"
               width={400}
               height={400}
               alt="What role online betting sites play in the player experience"
@@ -96,7 +96,7 @@ export default function PlayerExperience() {
         >
           <div className="w-full h-full lg:w-[400px] lg:h-[400px] rounded-xl flex items-center justify-center text-sm text-white/60">
             <Image
-              src="/img/casino/2 1080X1080.webp"
+              src="/img/casino/2-what-role.webp"
               width={400}
               height={400}
               alt="What role online betting sites play in the player experience"
