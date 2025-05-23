@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const menuItems = [
   { name: "HOME", href: "/" },
@@ -22,7 +23,12 @@ export default function Footer() {
             href="/"
             className="text-2xl font-bold tracking-wide bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent"
           >
-            PH365
+            <Image
+              src="/img/white logo.webp"
+              width={120}
+              height={120}
+              alt="Logo"
+            />
           </Link>
           <p className="text-white text-sm max-w-md">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { CloseMenu, OpenMenu } from "./icons";
@@ -12,12 +13,17 @@ export default function Header() {
   return (
     <>
       <header className="bg-[#4b47fd] text-white">
-        <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+        <div className="max-w-6xl mx-auto  py-3 flex items-center justify-between">
           <Link
             href="/"
             className="text-2xl font-bold tracking-wide bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent"
           >
-            PH365
+            <Image
+              src="/img/white logo.webp"
+              width={120}
+              height={120}
+              alt="Logo"
+            />
           </Link>
 
           <div className="hidden md:flex space-x-3">
