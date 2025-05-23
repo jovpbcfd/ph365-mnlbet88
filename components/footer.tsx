@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="space-y-3">
           <Link
             href="/"
-            className="text-2xl font-bold tracking-wide bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent"
+            className="text-2xl font-bold tracking-wide bg-gradient-to-r from-cyan-400 to-sky-500 bg-clip-text text-transparent lg:h-[50px]"
           >
             <Image
               src="/img/white logo.webp"
