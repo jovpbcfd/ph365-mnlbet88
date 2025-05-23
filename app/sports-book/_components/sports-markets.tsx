@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import Dot from "@/components/dot";
 
@@ -87,10 +88,15 @@ export default function ExploringMarkets() {
             </ul>
           </div>
           <div
-            className="w-full h-full lg:w-[400px] lg:h-[400px] border border-dashed border-black/20 
+            className="w-full h-full lg:w-[400px] lg:h-full border
           rounded-xl flex items-center justify-center text-sm text-black/60"
           >
-            Image 1080x1080
+            <Image
+              src="/img/sports-book/MAINSTREAM SPORT.webp"
+              width={400}
+              height={400}
+              alt="MAINSTREAM SPORT"
+            />
           </div>
         </div>
         <div className="flex flex-col lg:flex-row items-center gap-6 lg:mt-5">
@@ -142,10 +148,15 @@ export default function ExploringMarkets() {
             </ul>
           </div>
           <div
-            className="w-full h-full lg:w-[400px] lg:h-[400px] border border-dashed border-black/20 
+            className="w-full h-full lg:w-[400px] lg:full
           rounded-xl flex items-center justify-center text-sm text-black/60"
           >
-            Image 1080x1080
+            <Image
+              src="/img/sports-book/NICHE SPORT AND ESPORTS.webp"
+              width={400}
+              height={400}
+              alt="NICHE SPORT AND ESPORTS"
+            />
           </div>
         </div>
       </div>

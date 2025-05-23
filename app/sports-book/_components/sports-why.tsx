@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import Dot from "@/components/dot";
 
@@ -88,10 +89,15 @@ export default function ChooseSportsBook() {
             </li>
           </ul>
           <div
-            className="w-full h-full lg:w-[400px] lg:h-[400px] border border-dashed border-white/20 
-          rounded-xl flex items-center justify-center text-sm text-white/60"
+            className="w-full h-full lg:w-[400px] lg:full lg:border-3 lg:border-white/80 overflow-hidden lg:shadow-lg 
+          rounded-xs flex items-center justify-center text-sm text-white/60"
           >
-            Image 1080x1080
+            <Image
+              src="/img/sports-book/WHY CHOOSE A SPORTSBOOK.webp"
+              width={400}
+              height={400}
+              alt="WHY CHOOSE A SPORTSBOOK"
+            />
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import Dot from "@/components/dot";
 
@@ -21,8 +22,13 @@ export default function MasteringOdds() {
         </p>
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
           <div className="place-self-start">
-            <div className="flex items-center justify-center border border-dashed border-white/20 rounded-md  lg:w-[500px] lg:h-[200px]">
-              Image 500x200
+            <div className="flex items-center justify-center rounded-xs lg:border-3 lg:border-white/80 overflow-hidden lg:shadow-lg  lg:w-[500px] lg:h-[200px]">
+              <Image
+                src="/img/sports-book/DECIMAL ODDS.webp"
+                width={500}
+                height={200}
+                alt="DECIMAL ODDS"
+              />
             </div>
             <div>
               <motion.h3
@@ -68,8 +74,13 @@ export default function MasteringOdds() {
             </div>
           </div>
           <div className="place-self-end mb-auto">
-            <div className="flex items-center justify-center border border-dashed border-white/20 rounded-md  lg:w-[500px] lg:h-[200px]">
-              Image 500x200
+            <div className="flex items-center justify-center rounded-xs lg:border-3 lg:border-white/80 overflow-hidden lg:shadow-lg  lg:w-[500px] lg:h-[200px]">
+              <Image
+                src="/img/sports-book/MONEYLINE ODDS.webp"
+                width={500}
+                height={200}
+                alt="MONEYLINE ODDS"
+              />
             </div>
             <div>
               <motion.h3
